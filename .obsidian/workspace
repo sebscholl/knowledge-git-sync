@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1dcdc50c72531f3a",
+        "id": "27131a2227bf7f6b",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/thesaltywag com d6460f07d5984298ac6dceb5b582b059/Is Facebook Keeping their Member's Nude Photos Pri c58a3695427e4fd3b5555a8da6f817e4.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#YOLO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 413.5
   },
   "right": {
     "id": "ff155650f3da09c1",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/thesaltywag com d6460f07d5984298ac6dceb5b582b059/Is Facebook Keeping their Member's Nude Photos Pri c58a3695427e4fd3b5555a8da6f817e4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/thesaltywag com d6460f07d5984298ac6dceb5b582b059/Is Facebook Keeping their Member's Nude Photos Pri c58a3695427e4fd3b5555a8da6f817e4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,19 +116,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/thesaltywag com d6460f07d5984298ac6dceb5b582b059/Is Facebook Keeping their Member's Nude Photos Pri c58a3695427e4fd3b5555a8da6f817e4.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "1bc7a7664ed5a580",
   "lastOpenFiles": [
-    "manifesto.md",
-    "READme.md"
+    "career/amazon/amazon-devices-teams.md",
+    "career/amazon-lvl-6-sdm.md",
+    "career/bias-for-action-story-1.md",
+    "career/bias-for-action-story-2.md",
+    "career/amazon/behavorial-interview-questions.md",
+    "career/bias-for-action-story-1 1 1.md",
+    "career/amazon/Untitled.md",
+    "career/amazon/leadership-principles.md",
+    "career/star-method-response-format.md",
+    "notion-import/education/Education d023ed6e3db241e091aa72d3ae380602/Courses 09823c8a8df74e848d7cbd700618a2ca/10 Facebook Ads Golden Principles That Make Me 6-F 0b60f3842a1c4332b048071b8cf028bf.md"
   ]
 }
