@@ -1,1 +1,5 @@
 .DS_Store
+
+# Ignore commiting video files
+*.mov
+*.mp4

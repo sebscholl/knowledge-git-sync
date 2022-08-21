@@ -1,0 +1,18 @@
+# Is Test Driven Development an Obstacle or Asset?
+
+Created: August 25, 2021 1:28 PM
+Location: New York City, United State of America
+Original Publish Date: May 4, 2016
+Tags: Tech & Code
+
+It’s more likely than not that a novice Ruby developer will be urged to learn and practice TDD (test driven development). Within the Rails community, the ability to write detailed tests at each level of the application is, at many companies, a highly valued skill. However, for developers just starting out, testing can very easily be seen as an obstacle rather than an asset in the development process. At its root, this perception very likely stems from a lack of exposure to building and maintaining large codebases. To make this predicament more relatable, I’m going to analogize it to writing literature.
+
+When planning to write a novel, starting with an outline is wise. Breaking down a story into its various segments, and within those segments defining key details, is a process that histories great writers followed and is continued to be used today. By doing so, the story develops from a more holistic standpoint as the author is better able to stay true to their original inspiration. Should the author choose to alter that outline, the freedom is theirs. However, by defining a set of expectations and criteria in the begging as to how the novel will play out, the author has provided themselves with a true north as to guide their work by.
+
+Now an entry level developer is no novelist. Instead, they are much more accurately characterized as bloggers. Instead of architecting fully developed stories, they churn out anecdotes. Each of those anecdotes often being an exercise for a new skill - or rehearsal of an old one. It is the repetition of producing those anecdotes over time that develops their writing abilities, providing them the foundation to - should they choose to - challenge themselves in producing more complex works.
+
+Building many small projects when learning to code is how fresh developers learn the art. Maybe they work on a project for a few days, weeks, or even months. The limited scope that these projects commonly embody insulates them from seeing the benefits that are realized through practicing TDD. And that's fine! The reason being that they have yet reached a level at which the benefits *can* be realized. Back to our analogy, it’s when the story is complex that an outline really provides value through structure and guidance.
+
+Writing tests for a simple app maintained by a team of several developers is little more than practice. When there are dozens, or even hundreds, of developers contributing to a code base, complexity that must be managed is undoubtedly present. A large part of that complexity lies in the fact that while a few of the more senior engineers may be “novelists”, the junior talent is still comprised of bloggers. So, how do we make sure that the anecdotes they produce contribute meaningfully to the greater narrative?
+
+That question was somewhat rhetorical, being that subscribing to TDD is - from what we can tell - the best solution. Well structured testing enforces standards that each code contribution must pass, allowing us to better manage the quality of our code bases as well as test our assumptions. Additionally, over time tests will play an integral role in minimizing hours (or days) spent debugging. Leading to time, money, and energy saved.

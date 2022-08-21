@@ -1,0 +1,5 @@
+# Understanding AI
+
+A good way to understand the intelligence achievable through machine learning or AI is that of an old person of regular intelligence. It is the sheer volume of experience that has developed in them a predictive wisdom for life and it's outcomes. Even the most intelligent youth simply couldn't fathom or relate to the vastness as information they've observed over the course of their lives.
+
+AI’s are in not more intelligent than humans. Intelligence may not even be a relevant concept in understanding them. What they are is infinitely wiser. Having been able to process and absorb billions of data points related to a specific topic within just seconds of their existence. Endowing them with more experience and understanding of inputs and outputs of a certain field than a human professional could ever hope to achieve in their own limited lifetime.

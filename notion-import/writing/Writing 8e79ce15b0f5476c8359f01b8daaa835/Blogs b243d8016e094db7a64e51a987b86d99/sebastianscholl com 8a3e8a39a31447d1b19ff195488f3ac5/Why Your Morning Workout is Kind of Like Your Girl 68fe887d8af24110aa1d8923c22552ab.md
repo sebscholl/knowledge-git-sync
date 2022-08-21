@@ -1,0 +1,19 @@
+# Why Your Morning Workout is Kind of Like Your Girlfriend
+
+Created: August 17, 2021 10:40 PM
+Original Publish Date: July 16, 2013
+Tags: Opinion
+
+![Untitled](notion-import/writing/Writing%208e79ce15b0f5476c8359f01b8daaa835/Blogs%20b243d8016e094db7a64e51a987b86d99/sebastianscholl%20com%208a3e8a39a31447d1b19ff195488f3ac5/Why%20Your%20Morning%20Workout%20is%20Kind%20of%20Like%20Your%20Girl%2068fe887d8af24110aa1d8923c22552ab/Untitled.png)
+
+I've never been a person who does well with routines.  Frankly, I hate them.  Every time my actions become part of a regular procedure rather than for special reasons I get anxious.  And it usually ends in me doing something quite drastic - destructive or not.  The reason being that the whole beauty of exercising free thought is the ability to act freely, and as one becomes comfortable with a routine their thoughts and actions become channeled and predictable, often without them realizing it.
+
+By nature we are all attracted to routine.  And often accredit it as an attribute consistently found in societies most accomplished and successful people.  I greatly envy athletes who are able to religiously wake themselves at dawn every morning to physically train - or the student who with discipline sets aside multiple hours every evening for their studies.  But there have been times in my life where I chained myself to such commitments.  Times when I structured my days with geometric precision to where my productivity could be judged by the second.  However, the other day while reflecting back on these flings with commitment throughout my life, I realized that routines are practically no different from romantic relationships.
+
+On the one hand we all wish we were in a routine, on the other we enjoy our freedom.  But every once in a while we find something that seems so attractive we want to become more familiar with it - whether that is a partner or fitness routine.  If we are able to make that initial connection, life seems limitless.  Everyday we wake up enthusiastic to spending time with our life's new addition.  And often can't stop talking or thinking about it.  Our friends will begin to ask us where we've been, and proudly we explain what has been occupying our time.  As if we had now risen above all our "routine-less" peers, we suggest that they too find something similar because the fulfillment and sense of purpose we've found seems as though it would benefit everyone.
+
+However soon this honeymoon period fades, and the 5:30am Yoga class doesn't have that same aurora it did when you first attended.  Close friends begin saying that you're not as fun to hang out with and that it's not healthy to let your "new life" control you as it does.  In the back of your head you know the end is coming but don't want to admit it to yourself.  The commitment that once felt unbreakable is only held together by guilt and a false sense of obligation instead of love or enjoyment.  And slowly, everything starts to fade out.  Maybe every once in awhile you try to relive the good days - but once again, you are routine-less.
+
+Those last two paragraphs may have been a mini manifesto of my past relationships - minus A LOT of detail - but I find the similarities between routines and relationships almost comical. Especially because when we finally do truly settle with a routine/relationship it is almost never the sexy one we dreamed of when we were young.  Just like how my most rigorous work-out regimens slowly deteriorate to stair-master sessions, the exotic, adventurous, and spontaneous girl I've always dreamed of may very well become a simple minded sweetheart who is just able to tolerate my idiosyncrasies.
+
+But in this inevitable process of compromise the initial step is routine - which while I'm young I, luckily, have the privilege of avoiding.

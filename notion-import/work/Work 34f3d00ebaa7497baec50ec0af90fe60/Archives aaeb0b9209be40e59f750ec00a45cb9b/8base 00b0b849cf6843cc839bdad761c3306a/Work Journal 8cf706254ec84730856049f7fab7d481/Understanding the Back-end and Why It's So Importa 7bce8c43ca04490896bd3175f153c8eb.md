@@ -1,0 +1,25 @@
+# Understanding the Back-end and Why It's So Important
+
+Created: February 20, 2020 2:31 PM
+
+The word *application* gets used quite liberally these days as an all-encompassing term to describe almost anything that's software. For business people, applications are usually thought to be the digital interfaces with which they interact. However, the visual experience of any software is just one piece of the puzzle - the puzzle of building what most call an "app". 
+
+The applications we're accustomed to using in our everyday lives, both professionally and personally, are not finished products that work in isolation. What does that mean? Unlike, lets say, a Swiss-army knife, that once delivered to the customer holds all it's functionality and value in of itself, customer-facing-applications require the coordination of multiple systems to properly function and deliver value; accessed via the web or on a mobile device.
+
+For example, a *database application* is needed to read information from and write to a computerized database. An *operating system* is the application needed to manage hardware resources and allocate memory to other applications running on a device. A *server application* is required to receive and respond to requests made over the web. A *front-end application* is required whenever there's a user needing to visually interact on a screen.
+
+Considering this, to bring any new idea for an "app" to fruition, a whole collection of other applications must either be developed or acquired to handle the many discrete, yet critical, supporting responsibilities. Much like how a great company is not a product in the market, but instead the systems, procedures, and infrastructure that brings a particular product to market, great software can be thought of the same way.
+
+The easiest line that gets drawn in the sand is one between the front-end (the visual interface) and everything else. For the most part, everything other than the front-end application tends to get grouped into what called backend. While a "backend*"* may just sound like one thing, it absolutely isn't. The backend of any application encompasses all of the non-interface resources, which makes it a collection of other applications and systems.
+
+Usually, a backend consists of three key parts: a server, an application, and a database. If you book movie tickets or buy shoes online, you're interacting with the front-end. After entering any info, like a shipping address, that data gets sent to a server application that will receive the request and pass any  storable information to the database application. To highlight the separations, booking tickets on your cell phone while in Florida might send the information to an application running on a server in North Carolina that connects to a database housed in Oregon.
+
+The horror stories that circulate about entrepreneurs and businesses loosing large investments on applications that "didn't scale", "wasn't secure", or "kept breaking" rarely, if ever, had to do with the front-end. Instead, the stories stem from oversights made on the backend for which the front-end may have suffered downstream consequences. Choosing and properly managing a database, maintaining an API, keeping up with the latest security standards, and enforcing user scopes that prevent data leaks, are just some of the considerations that a backend engineering team needs to specialize in. None of which are trivial!
+
+Furthermore, every technology choice has its pros and cons. Very often, the decisions engineers make in selecting technologies for a particular project are not guided by deciding what would be best for the project, but rather what are they most familiar with or excited about learning. Put simply, this usually results in projects getting fully built and the principals later finding out that the whole system needs to get re-written with the "right tools for the job".
+
+We built 8base to accelerate the development of enterprise-grade web and mobile applications for businesses, both large and small. Along the journey of formalizing that vision, we realized that it was in handling the backend that we could best support innovation. With a team that has over 30+ years of experience building venture backed SaaS products and software, we're intimately familiar with that many pot holes along the road. So we asked ourselves, "how can we help others build better software faster and cheaper?"
+
+The 8base platform does just that. By have a ready-to-use backend (Database, API, and application services), we help entrepenuaers and business people innovate on software at lightening speeds, without having to worry about the vulnerabilities of the backend. Furthermore, while thousands of developers worldwide are building applications using 8base, our 8base Labs team works directly with business to get involved in building software products in record times.
+
+To learn more, feel free to reach out to us at hello@8base.com.

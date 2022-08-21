@@ -1,0 +1,5 @@
+# Entrepreneurship is for the Experienced, not the Enthusiastic
+
+Several days ago, the New York Times published an article about how successful tech entrepreneurs are middle aged men. They also had the discipline of pointing this out as a fact; not as a political statement. The ethos of the piece dismissed the startup stereotype of a 20-something year old coding prodigy being the rare exception rather than a norm. For a very sound reason, too. Business demands experience and discipline; something that the youth have rarely developed and almost nothing can substitute.
+
+Millions of millennials and younger generations are set out to make names for themselves by starting businesses. 99.99% of them driven by a cultural glorification of entrepreneurship and a dogmatic commitment to "be my own boss."
