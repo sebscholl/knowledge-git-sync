@@ -20,9 +20,9 @@ ___
 **Knowledge:** [[interview-1]]
 
 **Principles**
- - Have Backbone; Disagree and Commit 
- - Earn trust
- - Hire and Develop the Best
+ - [[leadership-principles#Have Backbone Disagree and Commit]]
+ - [[leadership-principles#Earn Trust of Others]]
+ - [[leadership-principles#Hire and Develop the Best]]
 
 ___
 
@@ -32,8 +32,8 @@ ___
 **Knowledge:** [[interview-2]]
 
 **Principles**
-- Ownership
-- Deliver Results
+- [[leadership-principles#Ownership]]
+- [[leadership-principles#Deliver Results]]
 
 **Review**
 - People Management
@@ -47,8 +47,8 @@ ___
 **Knowledge:** [[interview-3]]
 
 **Principles**
-- Learn and Be Curious
-- Invent and Simplify
+- [[leadership-principles#Learn and Be Curious]]
+- [[leadership-principles#Invent and Simplify]]
 
 **Review**
 - Product/Project Management Core
@@ -61,8 +61,8 @@ ___
 **Knowledge:** [[interview-4]]
 
 **Principles**
-- Insist on the Highest Standards
-- Bias for Action
+- [[leadership-principles#Insist on the Highest Standards]]
+- [[leadership-principles#Bias for Action]]
 
 **Review**
 - System Design
@@ -75,8 +75,8 @@ ___
 **Knowledge:** [[interview-5]]
 
 **Principles**
-- Think Big
-- Dive Deep
+- [[leadership-principles#Think Big]]
+- [[leadership-principles#Dive Deep]]
 
 **Review**
 - Operational Excellence

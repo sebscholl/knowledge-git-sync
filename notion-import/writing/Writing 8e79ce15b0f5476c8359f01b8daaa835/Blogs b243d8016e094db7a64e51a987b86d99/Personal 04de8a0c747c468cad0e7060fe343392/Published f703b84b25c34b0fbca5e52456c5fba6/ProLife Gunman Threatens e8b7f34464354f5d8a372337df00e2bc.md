@@ -1,4 +1,4 @@
-# ProLife Gunman Threatens
+obsidian git ssh# ProLife Gunman Threatens
 
 **Pro-Life Gunman Threatens to Kill Anyone Who Enters Planned Parenthood**
 
