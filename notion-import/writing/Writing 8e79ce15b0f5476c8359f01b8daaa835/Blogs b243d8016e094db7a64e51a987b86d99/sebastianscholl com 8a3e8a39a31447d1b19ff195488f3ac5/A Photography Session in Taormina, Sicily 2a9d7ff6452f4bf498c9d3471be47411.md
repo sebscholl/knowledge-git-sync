@@ -1,8 +1,10 @@
+**Date:** [[2013-07-26]]
+**Tags:** #reflection #taormina #sicily #mynamessebastian
+
 # A Photography Session in Taormina, Sicily
 
 Created: August 18, 2021 12:21 PM
 Original Publish Date: July 26, 2013
-Tags: Photography, Reflection, Travel
 
 ![http://mynamessebastian.files.wordpress.com/2013/07/0a9a8614.jpg](http://mynamessebastian.files.wordpress.com/2013/07/0a9a8614.jpg)
 
@@ -18,7 +20,7 @@ I may still be wrong, but I think I have found a solution to my problem.  And t
 
 ![http://mynamessebastian.files.wordpress.com/2013/07/0a9a8602.jpg](http://mynamessebastian.files.wordpress.com/2013/07/0a9a8602.jpg)
 
-Greek Amphitheat
+Greek Amphitheater
 
 You cannot take a picture of courage or risk, but you can take or manipulate pictures into projecting those emotions.  And that is what I'm now trying to train me eye to recognize - how to take pictures that emphasize the emotions my subjects deliver to me.  Sometimes when walking down the street, I'm overwhelmed by a certain color, where when I take a picture, that magic is taken away by the image showing every color.  Thus, editing is key, and patience with thought is equally important.
 

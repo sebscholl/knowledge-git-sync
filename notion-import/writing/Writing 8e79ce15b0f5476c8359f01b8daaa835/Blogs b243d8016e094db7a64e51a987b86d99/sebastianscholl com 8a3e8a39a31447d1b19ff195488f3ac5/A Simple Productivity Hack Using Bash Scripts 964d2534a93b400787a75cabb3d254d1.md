@@ -1,3 +1,6 @@
+**Date:** [[2021-08-29]]
+**Tags:** #code #productvity #medium
+
 # A Simple Productivity Hack Using Bash Scripts
 
 Created: August 29, 2021 1:45 PM

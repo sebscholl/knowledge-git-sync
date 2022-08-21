@@ -1,9 +1,10 @@
+**Tags:** #philosophy #opinion #mynamessebastian
+
 # Form Over Substance and Forgetting the Routine
 
 Created: August 29, 2021 1:14 PM
 Location: Miami, United State of America
 Original Publish Date: March 16, 2018
-Tags: Opinion
 
 The old saying “he puts his pants on one leg at a time, just like you” is a solid truism. However, when it comes to the people we admire most, it's all too easy to become enamored and believe them to be an exception. A symptom of such being that every known idiosyncrasy of theirs becomes a topic of fierce debate. Guided by a holy grail like crusade to discover *what’s their secret.*
 

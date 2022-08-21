@@ -1,3 +1,6 @@
+**Date:** [[2013-05-31]]
+**Tags:** #minimalism #mynamessebastian
+
 # A Minimalist Update - Pt.3
 
 Created: August 17, 2021 9:30 PM

@@ -1,3 +1,6 @@
+**Date:** [[2013-02-28]]
+**Tags:** #minimalism #reflection #mynamessebastian
+
 # A Minimalist Transformation
 
 Created: August 17, 2021 3:37 PM

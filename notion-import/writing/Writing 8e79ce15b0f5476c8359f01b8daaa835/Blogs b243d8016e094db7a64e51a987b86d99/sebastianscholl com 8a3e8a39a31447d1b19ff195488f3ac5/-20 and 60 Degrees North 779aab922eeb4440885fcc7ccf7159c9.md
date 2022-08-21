@@ -1,9 +1,10 @@
+**Tags:** #reflection #travel #mynamessebastian
+
 # -20 and 60 Degrees North
 
 Created: August 23, 2021 5:44 PM
 Location: Finland, Helsinki
 Original Publish Date: January 25, 2016
-Tags: Reflection, Travel
 
 ![http://mynamessebastian.files.wordpress.com/2016/01/g0242975_1453142944386_high-01.jpeg](http://mynamessebastian.files.wordpress.com/2016/01/g0242975_1453142944386_high-01.jpeg)
 
