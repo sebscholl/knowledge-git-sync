@@ -1,8 +1,4 @@
-
----
-Date: 
-Tags: #note
----
+**Tags:** #note
 
 # title
 

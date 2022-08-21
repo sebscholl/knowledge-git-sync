@@ -1,7 +1,4 @@
----
-Date: 08-21-2022
-Tags: #workout
----
+**Tags:** #workout
 
 # Morning Workout
 

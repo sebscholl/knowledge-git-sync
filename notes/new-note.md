@@ -1,3 +1,10 @@
+---
+Date: 
+Tags: #note
+---
+
+# title
+
 # new-note
 ___
 Tags: #note 
