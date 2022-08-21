@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "27131a2227bf7f6b",
+        "id": "204d2f04921ac918",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_templates/note-template.md",
+            "file": "career/amazon-lvl-6-sdm.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#YOLO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_templates/note-template.md",
+                "file": "career/amazon-lvl-6-sdm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_templates/note-template.md",
+                "file": "career/amazon-lvl-6-sdm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/note-template.md"
+                "file": "career/amazon-lvl-6-sdm.md"
               }
             }
           }
@@ -128,7 +128,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "27131a2227bf7f6b",
+  "active": "1bc7a7664ed5a580",
   "lastOpenFiles": [
     "notes/new-note.md",
     "_templates/note-template.md",

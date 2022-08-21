@@ -22,6 +22,31 @@ Well, 3 main reasons:
 ## Loop Interviews
 My final stage of interviewing at Amazon culminates in the Loop interview. My recruiter, Jack Pandolfo, communicated that the following people will be interviewing me to validate the listed leadership principles.
 
+---
+
+### Interview Instructions
+
+Your interview has been scheduled for AUGUST 30, 2022 with a tentative time frame of **12:00pm - 6:00pm** ET
+  
+General Culture on **AUGUST 26, 2022.** This meeting will not impact the outcome of your interviews, and the affinity group member will not have information about the recruiting process.  
+  
+#### Invision Link
+
+Some interviews require free hand drawing on a virtual whiteboard. **A link to InVision, a whiteboarding platform, has been provided below:**  
+   
+**InVision Whiteboarding Link:** [https://amazon-recruiting.invisionapp.com/freehand/document/vyxrOqWlD](https://amazon-recruiting.invisionapp.com/freehand/document/vyxrOqWlD)  
+    
+**Please sign in as a Guest on InVision (upper right corner), and then follow the prompts to enter your email address. You do not need to create an account or enter a password.**  
+  
+- **Delete:** Click ctrl + Z to delete a drawing. Alternatively, hover over the pencil icon to switch to the eraser tool to erase selected drawings. Once you have chosen the eraser tool, click on the drawing you would like to delete.
+- **Present Mode:** Once you are ready to begin drawing, press the “play” button (triangle at the top right of the page, next to the pencil) to lead in Present Mode. This will allow the viewer to follow your drawings.
+     
+**About the Devices team:**
+
+-   [**About Amazon**](https://www.amazon.jobs/en/landing_pages/about-amazon)
+-   [**Learn About Inventing Devices at Amaz**](https://www.youtube.com/watch?v=KjS1NvRPzdY&list=PL9JNmYfQa0bjC-qU0Tx__NW1rf5a7OVBF&index=3)**on**
+-   [**Meet the Devices Team**](https://www.amazon.jobs/en/business_categories/amazon-devices)
+
 ___
 
 #### Interview 1
