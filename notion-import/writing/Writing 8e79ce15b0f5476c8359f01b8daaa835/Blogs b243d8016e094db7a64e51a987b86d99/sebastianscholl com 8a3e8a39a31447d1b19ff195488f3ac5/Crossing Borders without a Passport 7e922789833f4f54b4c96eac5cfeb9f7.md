@@ -1,9 +1,11 @@
-# Crossing Borders without a Passport
+___
+Created: [[2021-08-18]]
+Location: #budapest #hungary
+Original Publish Date: [[2013-08-15]]
+Tags: #travel #story_telling 
+___
 
-Created: August 18, 2021 3:03 PM
-Location: Budapest, Hungary
-Original Publish Date: August 15, 2013
-Tags: Memory, Travel
+# Crossing Borders without a Passport
 
 I’m so excited to share this story.
 

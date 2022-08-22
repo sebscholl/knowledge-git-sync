@@ -1,8 +1,10 @@
-# How 3D Printing Works and What is Possible
+___
+Created: [[2021-08-17]]
+Original Publish Date: [[2013-07-11]]
+Tags: #research #3dprinting #mynamessebastian
+___
 
-Created: August 17, 2021 10:31 PM
-Original Publish Date: July 11, 2013
-Tags: Research
+# How 3D Printing Works and What is Possible
 
 In the last week I've gotten into a new habit of introducing myself.  It goes something like this, "Hi! I'm Sebastian.  Do you know anything about 3D printing?"  Nerdy, I know.  Haven't been getting that many girls numbers with this strategy...but at the same time it has paid off.  Doing so helped me find a *3D Printing and Content Scanning* lecture at the Microsoft center in Cambridge where I met the CEO of a local Boston ceramics printing company, who invited me to come by the factory.  There have been a few other connections I've been able to make thus far in the industry; however, the most common response when I bring up the subject is a sincere "huh?"
 

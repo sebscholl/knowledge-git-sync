@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "sliding-panes-obsidian",
+  "obsidian-admonition",
+  "convert-url-to-iframe"
 ]

@@ -1,4 +1,9 @@
 {
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "livePreview": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "zettelkasten/zettels",
+  "trashOption": "local",
+  "attachmentFolderPath": "_files"
 }

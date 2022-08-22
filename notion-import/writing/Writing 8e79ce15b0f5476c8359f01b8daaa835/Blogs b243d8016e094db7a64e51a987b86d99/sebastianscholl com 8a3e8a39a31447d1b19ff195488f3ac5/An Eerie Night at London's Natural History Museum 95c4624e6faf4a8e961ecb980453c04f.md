@@ -1,9 +1,11 @@
-# An Eerie Night at London's Natural History Museum
+___
+Created: [[2021-08-19]]
+Location: #london #england
+Original Publish Date: [[2013-11-14]]
+Tags: #photography
+___
 
-Created: August 19, 2021 9:37 AM
-Location: England, London
-Original Publish Date: November 14, 2013
-Tags: Photography
+# An Eerie Night at London's Natural History Museum
 
 ![http://mynamessebastian.files.wordpress.com/2013/11/0a9a1849.jpg](http://mynamessebastian.files.wordpress.com/2013/11/0a9a1849.jpg)
 

@@ -1,8 +1,9 @@
+___
+Created: [[2021-08-17]]
+Original Publish Date: [[2013-07-03]]
+Tags: #research #mynamessebastian 
+___
 # 5 Entry Level Jobs that Have Rock Star "Like" Benefits
-
-Created: August 17, 2021 10:19 PM
-Original Publish Date: July 3, 2013
-Tags: Research
 
 There is no doubt that everyone wants to be a rock-star.  We dream of drunkenly screaming in front of thousands of fans lyrics about sex, drugs, and rock & roll, or swooning millions with melodic choruses on love and heart ache.  Imagine being every girl and guy's secret crush and unspoken roll model – sounds awesome, right?  While dreaming though, we are usually reminded of reality when the hot water runs out in the shower.
 

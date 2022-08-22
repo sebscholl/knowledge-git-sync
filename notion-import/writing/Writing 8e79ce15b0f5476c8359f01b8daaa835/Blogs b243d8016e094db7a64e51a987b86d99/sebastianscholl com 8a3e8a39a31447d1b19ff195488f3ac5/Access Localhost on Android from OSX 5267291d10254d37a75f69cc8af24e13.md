@@ -1,9 +1,11 @@
-# Access Localhost on Android from OSX
+___
+Created: [[2021-08-25]]
+Location: #nyc, #usa
+Original Publish Date: [[2016-04-13]]
+Tags: #code #mynamessebastian 
+___
 
-Created: August 25, 2021 12:23 PM
-Location: New York City, United State of America
-Original Publish Date: April 13, 2016
-Tags: Tech & Code
+# Access Localhost on Android from OSX
 
 Web developers will often want to view their projects on mobile. In both Chrome and Firefox, the developer console gives us the ability to mimic mobile views by setting screen size containers. It's really not a comparable experience though to holding a phone while demoing.
 

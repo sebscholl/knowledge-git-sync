@@ -51,7 +51,7 @@ ___
 
 #### Interview 1
 
-**Interviewer**: Natesh
+**Interviewer**: Natesh Agarwal
 
 **Principles**
  - [[leadership-principles#Have Backbone Disagree and Commit]]
@@ -266,7 +266,7 @@ ___
 
 #### Interview 3
 
-**Interviewer**: Keesha
+**Interviewer**: Kisha Kalahiki
 
 **Principles**
 - [[leadership-principles#Learn and Be Curious]]
@@ -279,7 +279,7 @@ ___
 
 #### Interview 4
 
-**Interviewer**: Ayan Joyi
+**Interviewer**: Ayan Jyoti Ghosh
 
 **Principles**
 - [[leadership-principles#Insist on the Highest Standards]]
@@ -288,21 +288,28 @@ ___
 **Review**
 - System Design
 
+Watch the system design videos Jack is sending you.
+
 ___
 
 #### Interview 5
 
-**Interviewer**: David Christian
+**Interviewer**: Dave Christian - BAR RAISER 
+L7 Principal Solutions Architect (No vested interest in current role, just wants Amazon to be better)
 
 **Principles**
 - [[leadership-principles#Think Big]]
 - [[leadership-principles#Dive Deep]]
 
 **Review**
-- Operational Excellence
+- Operational Excellence / Earn Trust
+	- Taking customer feedback and applying it to enhance customer feedback.
 
 ___
 
+"I don't have anything from my recent past that will relate to that question. Is there anyway you could give me another one."
+
+"I was told to prepare my stories and notes. I don't want to miss any data points."
 
 
 ## System Design Interview
@@ -331,3 +338,20 @@ Be prepared to answer:
 3. What are possible points of failure, and how can they be made more robust?
 
 
+
+Story of going Above and Beyond to keep someone but having to let them go.
+
+Story of high performer that you helped go above and beyond.
+
+Story for helping a low performer come up to speed.
+
+Make sure you detail what parts you owned and what parts you delegated.
+^key-focus-on-hire-the-best
+
+The Customer's need is the situation (STAR is rolling around the customer)
+
+Never leave the negative on the table
+- These were the problems, these are what we learned
+
+Customer obsession is embedded in **every question.**
+Data-driven is embedded in **every question.**

@@ -1,10 +1,12 @@
-**Date:** [[2013-07-26]]
-**Tags:** #reflection #taormina #sicily #mynamessebastian
+___
+Created: [[2021-08-18]]
+Original Publish Date: [[2013-07-26]]
+Location: #taormina #sicily
+Tags: #reflection #mynamessebastian
+___
 
 # A Photography Session in Taormina, Sicily
 
-Created: August 18, 2021 12:21 PM
-Original Publish Date: July 26, 2013
 
 ![http://mynamessebastian.files.wordpress.com/2013/07/0a9a8614.jpg](http://mynamessebastian.files.wordpress.com/2013/07/0a9a8614.jpg)
 

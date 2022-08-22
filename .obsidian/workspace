@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "204d2f04921ac918",
+        "id": "c84f77256d0db299",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Simple Productivity Hack Using Bash Scripts 964d2534a93b400787a75cabb3d254d1.md",
-            "mode": "source",
-            "source": false
+            "file": "career/amazon-lvl-6-sdm.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "loop amazon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 395.5
   },
   "right": {
     "id": "ff155650f3da09c1",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Simple Productivity Hack Using Bash Scripts 964d2534a93b400787a75cabb3d254d1.md",
+                "file": "career/amazon-lvl-6-sdm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Simple Productivity Hack Using Bash Scripts 964d2534a93b400787a75cabb3d254d1.md",
+                "file": "career/amazon-lvl-6-sdm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,28 +117,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Simple Productivity Hack Using Bash Scripts 964d2534a93b400787a75cabb3d254d1.md"
+                "file": "career/amazon-lvl-6-sdm.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "204d2f04921ac918",
+  "active": "1bc7a7664ed5a580",
   "lastOpenFiles": [
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Photography Session in Taormina, Sicily 2a9d7ff6452f4bf498c9d3471be47411.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Minimalist Update - Pt 3 8c99d40e46fd49c99fce6872e6a40963.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Minimalist Transformation 683eb1761c6c436d9062015ee59b1d08.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A New Year 2013 486caaa306d84a78a13dccddb0c2fc66.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/Form Over Substance and Forgetting the Routine 30e078ba54614697bc6f2fa40941b852.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/-20 and 60 Degrees North 779aab922eeb4440885fcc7ccf7159c9.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/$60,000 in Ethereum Off the Table d7daf3dbf44c4db9af2c09c17425ddd9.md",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb/Evernote_Camera_Roll_20140529_105628.jpg",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb/Evernote_Camera_Roll_20140529_103005.jpg",
-    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/Greed 1bdaeead132945d98015b1479585c63f/Untitled.png"
+    "zettelkasten/zettels/never mistake passion for love.md",
+    "social/valeria-luzio/notice-to-family-of-divorce.md",
+    "zettelkasten/zettels/differentiation between connection and collection in Zettelkasten.md",
+    "zettelkasten/zettels/thought on creativity.md",
+    "zettelkasten/zettels/treatment of references in writing zettels.md",
+    "zettelkasten/zettels/using of ghost notes instead of tags.md",
+    "zettelkasten/zettels/workflow for creating maps of content (MOPs).md",
+    "manifesto.md",
+    "zettelkasten/templates/daily-reflection-template.md",
+    "zettelkasten/templates/core-mop-template.md"
   ]
 }

@@ -1,9 +1,11 @@
-# Beauty is Not in the Eye of the Beholder, It's in Norway
+___
+Created: [[2021-08-19]]
+Location: #norway/trondheim #norway/averøy
+Original Publish Date: [[2013-12-01]]
+Tags: #travel #photography 
+___
 
-Created: August 19, 2021 11:34 AM
-Location: Averøy, Norway, Trondheim
-Original Publish Date: December 1, 2013
-Tags: Photography, Travel
+# Beauty is Not in the Eye of the Beholder; It's in Norway
 
 ![http://mynamessebastian.files.wordpress.com/2013/12/gopr0003.jpg](http://mynamessebastian.files.wordpress.com/2013/12/gopr0003.jpg)
 

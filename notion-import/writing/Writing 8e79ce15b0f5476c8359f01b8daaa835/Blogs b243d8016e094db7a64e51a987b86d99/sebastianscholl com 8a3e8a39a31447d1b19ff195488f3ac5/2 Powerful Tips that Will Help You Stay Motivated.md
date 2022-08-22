@@ -1,9 +1,11 @@
-# 2 Powerful Tips that Will Help You Stay Motivated to Workout
+___
+Created: [[2021-08-23]]
+Location: #panama/volcán
+Original Publish Date: [[2014-08-24]]
+Tags: #research #mynamessebastian #workout 
+___
 
-Created: August 23, 2021 4:48 PM
-Location: Panama, Volcán
-Original Publish Date: August 24, 2014
-Tags: Research
+# 2 Powerful Tips That Will Help You Stay Motivated to Workout
 
 ![http://mynamessebastian.files.wordpress.com/2014/08/packaging-00021.jpg](http://mynamessebastian.files.wordpress.com/2014/08/packaging-00021.jpg)
 

@@ -1,9 +1,11 @@
-# Another Party on Another Island
+___
+Created: [[2021-08-18]]
+Location: #croatia #hvar #split
+Original Publish Date: [[2013-08-16]]
+Tags: #travel #story_telling #photography 
+___
 
-Created: August 18, 2021 3:05 PM
-Location: Croatia, Hvar, Split
-Original Publish Date: August 16, 2013
-Tags: Memory, Photography, Travel
+# Another Party on Another Island
 
 ![http://mynamessebastian.files.wordpress.com/2013/08/0a9a9586.jpg](http://mynamessebastian.files.wordpress.com/2013/08/0a9a9586.jpg)
 

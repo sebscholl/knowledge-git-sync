@@ -1,8 +1,9 @@
+___
+Created: [[2021-08-17]]
+Original Publish Date: [[2013-05-26]]
+Tags: #cooking #drinks
+___
 # Cucumbers and Caviar
-
-Created: August 17, 2021 9:14 PM
-Original Publish Date: May 26, 2013
-Tags: Cooking & Drinks
 
 It has been raining for four days here in Boston.  Not only does this weather make it a drag to so much as walk outside, it makes me feel even more isolated while riding the bad weather out solo in my empty apartment.  As I've been wasting away in this empty shell, it has been food that has stood true as the most reliable source of company.  Thus, I was inspired to run back down to SHAWS market, pick up the first thing to catch my eye, and improvise from there.
 

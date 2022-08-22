@@ -1,8 +1,10 @@
-# Burlap Sack Ottoman Stools
+___
+Created: [[2021-08-17]]
+Original Publish Date: [[2011-10-09]]
+Tags: #projects/diy
+___
 
-Created: August 17, 2021 12:00 PM
-Original Publish Date: October 9, 2011
-Tags: Art, DIY
+# Burlap Sack Ottoman Stools
 
 This is a little project I did a few months ago. Awhile back I had purchased some used Coffee sacks online in hopes that I'd find a craft application for them...and after 8 months I did! These bad boys took an hour and a half to construct (that's including time to the home-depot), and have a lot of character and style in them. They are Coffee sack topped ottomans that double as stool seats. Easy to make and fun to have.
 

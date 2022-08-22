@@ -1,13 +1,11 @@
-**Date:** [[2021-08-29]]
+___
+Created: [[2021-08-29]]
+Location: #miami, #usa
+Original Publish Date: [[2019-11-20]]
 **Tags:** #code #productvity #medium
+___
 
 # A Simple Productivity Hack Using Bash Scripts
-
-Created: August 29, 2021 1:45 PM
-Location: Miami, United State of America
-Original Publish Date: November 20, 2019
-Tags: Tech & Code
-
 ### **How to expedite workflows by launching browser tabs from bash scripts.**
 
 ![https://cdn-images-1.medium.com/max/2560/1*7cljyjXZ6eyzfZGXu_m_IA.png](https://cdn-images-1.medium.com/max/2560/1*7cljyjXZ6eyzfZGXu_m_IA.png)

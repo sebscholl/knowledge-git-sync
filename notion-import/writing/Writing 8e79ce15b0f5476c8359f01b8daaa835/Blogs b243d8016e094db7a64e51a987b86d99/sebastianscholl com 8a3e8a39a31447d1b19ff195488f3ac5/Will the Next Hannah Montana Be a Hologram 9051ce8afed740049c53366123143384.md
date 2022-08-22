@@ -1,9 +1,11 @@
-# Will the Next Hannah Montana Be a Hologram?
+___
+Created: [[2021-08-29]]
+Location: #miami #usa
+Original Publish Date: [[2016-07-25]]
+Tags: #opinion #research
+___
 
-Created: August 29, 2021 12:51 PM
-Location: Miami, United State of America
-Original Publish Date: July 25, 2016
-Tags: Opinion, Research
+# Will the Next Hannah Montana Be a Hologram?
 
 I'm somewhat of a broken record in conversation these days. No matter the topic, my chats continue to segue into discussing augmented and virtual reality. My friends indulge me fortunately, and more often than not share something that I've yet heard or thought of.
 

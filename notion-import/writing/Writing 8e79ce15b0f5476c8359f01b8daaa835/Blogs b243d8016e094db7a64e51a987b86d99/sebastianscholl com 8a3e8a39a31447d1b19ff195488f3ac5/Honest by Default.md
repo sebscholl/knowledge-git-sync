@@ -1,8 +1,9 @@
+___
+Created: [[2021-08-17]]
+Original Publish Date: [[2013-06-18]]
+Tags: #story_telling #mynamessebastian 
+___
 # Honest by Default
-
-Created: August 17, 2021 9:58 PM
-Original Publish Date: June 18, 2013
-Tags: Memory
 
 ![http://mynamessebastian.files.wordpress.com/2013/06/b32ec-0a9a8268.jpg](http://mynamessebastian.files.wordpress.com/2013/06/b32ec-0a9a8268.jpg)
 
