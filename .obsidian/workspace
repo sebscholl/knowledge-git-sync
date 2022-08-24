@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "c3d9b870221314f6",
+    "id": "a04dda59f944fd95",
     "type": "split",
     "children": [
       {
-        "id": "d304d4f6787af6dd",
+        "id": "3a613c1d8aaf21b4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "zettelkasten/zettels/all databases are the same.md",
+            "file": "assemblage/setting up a remote SSH for Linux PC.md",
             "mode": "source",
             "source": true
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3fbfde6fa8c51477",
+    "id": "1c9402a57dc5f0cd",
     "type": "split",
     "children": [
       {
-        "id": "53e490a587547969",
+        "id": "aa246e5e7f2c3ad4",
         "type": "tabs",
         "children": [
           {
-            "id": "1bc7a7664ed5a580",
+            "id": "66359c2ccc1c322f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,12 +35,12 @@
             }
           },
           {
-            "id": "2363775c4bdf904b",
+            "id": "e4251fe05cfa97b9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "sdm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "d8ea243927010fde",
+            "id": "322023b9988fb1ba",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -61,47 +61,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 300
   },
   "right": {
-    "id": "ff155650f3da09c1",
+    "id": "b6efc737441685a9",
     "type": "split",
     "children": [
       {
-        "id": "cc0a36911c9395fe",
+        "id": "109f279fbcb774b8",
         "type": "tabs",
         "children": [
           {
-            "id": "8c9172a96947d358",
+            "id": "3811fef5c66e3626",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md",
+                "file": "assemblage/setting up a remote SSH for Linux PC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5e09a96b993b8a19",
+            "id": "9e47bd606c8e4814",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md",
+                "file": "assemblage/setting up a remote SSH for Linux PC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ef0739fe676bb55a",
+            "id": "309b20c962fdfa29",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "4512bf629f4d5e73",
+            "id": "fb3e38fc3ecd6708",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md"
+                "file": "assemblage/setting up a remote SSH for Linux PC.md"
               }
             }
           }
@@ -127,17 +127,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d304d4f6787af6dd",
+  "active": "3a613c1d8aaf21b4",
   "lastOpenFiles": [
-    "athenaeum/career/amazon-lvl-6-sdm.md",
-    "_files/Pasted image 20220820122428.png",
-    "_files/Pasted image 20220820122313.png",
-    "_files/2019-12-30_17-25-48.jpg",
-    "_files/Pasted image 20220820122442.png",
-    "zettelkasten/zettels/principles triumph techniques.md",
+    "_templates/info-capture-template.md",
+    "_templates/core-mop-template.md",
+    "assemblage/setting up a remote SSH for Linux PC.md",
+    "notes/new-note.md",
+    "_templates/note-with-url.md",
     "manifesto.md",
-    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/Professional 8531bf2dd544473ea62f7727ed5ac3e4/Published 7b2051cf0e15485c9cbf8d8c2db47ccc/Only doing what matters.md",
-    "zettelkasten/zettels/unless its practice do not do the same thing twice.md",
-    "zettelkasten/zettels/using of ghost notes instead of tags.md"
+    "career/interviewing/amazon/sdm-fire-tv/level-6 SDM device team.md",
+    "career/interviewing/amazon/leadership-principles.md",
+    "career/career base.md",
+    "notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835.md"
   ]
 }
