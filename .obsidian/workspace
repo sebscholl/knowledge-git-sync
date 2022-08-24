@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d304d4f6787af6dd",
+        "id": "4b126b563f51d2ac",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "zettelkasten/zettels/all databases are the same.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "zettelkasten/zettels/all databases are the same.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -127,17 +119,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d304d4f6787af6dd",
+  "active": "1bc7a7664ed5a580",
   "lastOpenFiles": [
+    "manifesto.md",
+    "zettelkasten/zettels/all databases are the same.md",
     "athenaeum/career/amazon-lvl-6-sdm.md",
     "_files/Pasted image 20220820122428.png",
     "_files/Pasted image 20220820122313.png",
     "_files/2019-12-30_17-25-48.jpg",
     "_files/Pasted image 20220820122442.png",
     "zettelkasten/zettels/principles triumph techniques.md",
-    "manifesto.md",
     "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/Professional 8531bf2dd544473ea62f7727ed5ac3e4/Published 7b2051cf0e15485c9cbf8d8c2db47ccc/Only doing what matters.md",
-    "zettelkasten/zettels/unless its practice do not do the same thing twice.md",
-    "zettelkasten/zettels/using of ghost notes instead of tags.md"
+    "zettelkasten/zettels/unless its practice do not do the same thing twice.md"
   ]
 }
