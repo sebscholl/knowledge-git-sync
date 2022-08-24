@@ -35,3 +35,11 @@ That means that each Zettel only contains one unit of knowledge and one only. Th
 
 Emphasize connection, not a collection. The most important aspect of the body of the Zettel is that you write it in your own words. There is nothing wrong with capturing a verbatim quote on top. But one of the core rules to make the Zettelkasten work for you is to use your own words, instead of just copying and pasting something you believe is useful or insightful
 
+## Athanaeum 
+
+Where everything document I produce (article, blog, song, or other) gets chronicalized.
+
+## Readings
+
+Where everything I obtain through reading (information, not knowledge) can be chronicalized. 
+

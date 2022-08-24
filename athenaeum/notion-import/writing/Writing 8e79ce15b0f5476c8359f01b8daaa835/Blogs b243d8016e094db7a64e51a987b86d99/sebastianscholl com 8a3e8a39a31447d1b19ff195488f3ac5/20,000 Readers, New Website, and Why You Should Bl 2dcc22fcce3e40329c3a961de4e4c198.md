@@ -1,0 +1,19 @@
+# 20,000 Readers, New Website, and Why You Should Blog
+
+Created: August 17, 2021 10:16 PM
+Original Publish Date: July 1, 2013
+Tags: Career, Memory
+
+![Untitled](athenaeum/notion-import/writing/Writing%208e79ce15b0f5476c8359f01b8daaa835/Blogs%20b243d8016e094db7a64e51a987b86d99/sebastianscholl%20com%208a3e8a39a31447d1b19ff195488f3ac5/20,000%20Readers,%20New%20Website,%20and%20Why%20You%20Should%20Bl%202dcc22fcce3e40329c3a961de4e4c198/Untitled.png)
+
+In the past 6 months I have numerically achieved what Facebook accomplishes every 0.0172 seconds and Bill Gates earns per minute, 20,000 readers.  While it is nothing to boast about, it has been an awesome feeling to have people consistently read and comment on my blog - so thank you readers!  Additionally, over the weekend I took some time to design the new website...hope everyone likes it.
+
+In the past few months many people have approached me to talk about the blog, most of them conceding that they have always thought about blogging but either a) don't know where they'd find material or b) feel weird about sharing their opinions with others so openly.  There have been other concerns I've heard that keep those who are interested in blogging from giving it a shot, but these are the two main reasons that I feel are important to address.
+
+**Material: What to blog about?**  There are millions of blogs out there that cover anything from Tantra practice to raising penguins, but not all blogs have to be focused.  The fun I've had with blogging is being able to share and refine ideas, opinions, and experiences.  And I push myself to post everyday so that I'm constantly working on them.  Therefore, whether it be an opinion I've had since I was a 4-years-old, a new concept for a company, or simply trying out a new restaurant, I'm continually refining my thoughts and becoming more engaged in everything I do.
+
+In regards to finding or dreaming up material, though, it is much more simple than I believe most people perceive it.  Estimate how many "thoughts" you have everyday and image if you just wrote 5 of them down.  That would give you 1825 things to write about every year.  I have journals, note pads (both physical and virtual), and word documents filled with quotes, ideas, jokes, names, ect... and recommend everyone [blogger or not] to get into the habit of doing so.  We only ever retain a very small percentage of our thoughts, so don't let the ones you find fun or interesting slip away by not recording them!
+
+**Sharing: It's Feels Weird to Be So Open.**  This concern has always made me laugh because little do people know that most everyone in the world these days is a blogger - whether they are away of it or not.  Facebook, Twitter, Tumbler, FourSquare, LinkedIN, InstaGram, and MySpace are all blogging websites designed to effectively share what you think you hide most well from the world; you.  Wall posts, Tweets, "muploads", and check-ins, these are all different types of blog posts.  The only reason I, and many others, prefer to have personal domain sites is because we create more rich text material and find the popular sites limiting.
+
+We as Generation-Y's may be some of the most exhibitionist youths to date.  We shamelessly share pictures of us and our friends breaking the law (everyone knows what's in the red cup and that your eyes are not having an allergic reaction).  We want friends and others to know when, where, and what we are doing all the time.  And we share everything we find fun or our proud of.  So please, don't fool yourself into thinking you don't want to blog due to privacy concerns.
