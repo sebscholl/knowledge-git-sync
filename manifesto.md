@@ -43,3 +43,6 @@ Where everything document I produce (article, blog, song, or other) gets chronic
 
 Where everything I obtain through reading (information, not knowledge) can be chronicalized. 
 
+### Resources
+[Obsidian Help Documentation](https://help.obsidian.md/Obsidian/Index)
+[Official Zettelkasten Website and Philosophy Page](https://zettelkasten.de/)

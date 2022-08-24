@@ -7,8 +7,11 @@ Tags: [[servers & networking]]
 
 ### Connecting via SSH
 ```bash
-# Private or Publoc
+# Private or Public
 ssh s@10.1.10.42
+
+# Private or Public
+ssh s@10.1.10.153
 ```
 ___
 

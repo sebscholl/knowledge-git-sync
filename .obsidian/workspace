@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4b126b563f51d2ac",
+        "id": "12f1df15857f75bd",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "manifesto.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sdm",
+                "query": "zettel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "manifesto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "manifesto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "manifesto.md"
+              }
             }
           }
         ]
@@ -119,17 +127,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4b126b563f51d2ac",
+  "active": "12f1df15857f75bd",
   "lastOpenFiles": [
-    "zettelkasten/references/setting up a remote SSH for Linux PC.md",
+    "zettelkasten/zettels/principles triumph techniques.md",
+    "zettelkasten/zettels/zettelkasten.md",
+    "zettelkasten/zettels/differentiation between connection and collection in Zettelkasten.md",
     "zettelkasten/references/asus ROG IP Address.md",
+    "zettelkasten/references/setting up a remote SSH for Linux PC.md",
     "zettelkasten/references/preventing sleep mode on Linux.md",
     "zettelkasten/zettels/2022-08-24.md",
     "zettelkasten/zettels/ssh connecting to a remote linux PC.md",
     "manifesto.md",
-    "zettelkasten/zettels/all databases are the same.md",
-    "athenaeum/career/amazon-lvl-6-sdm.md",
-    "_files/Pasted image 20220820122428.png",
-    "_files/Pasted image 20220820122313.png"
+    "zettelkasten/zettels/all databases are the same.md"
   ]
 }
