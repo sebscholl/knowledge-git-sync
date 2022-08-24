@@ -1,6 +1,6 @@
 202208241308
 
-Status: #info
+Status: #reference
 Tags: [[linux]] [[servers & networking]]
 
 # Preventing sleep mode on Linux

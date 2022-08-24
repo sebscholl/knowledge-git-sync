@@ -1,6 +1,6 @@
 202208241304
 
-Status: #info
+Status: #reference
 Tags: [[servers & networking]]
 
 # ASUS ROG IPS

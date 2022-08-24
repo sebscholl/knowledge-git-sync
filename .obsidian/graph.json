@@ -1,22 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path: zettelkasten",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:zettelkast/zettels",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
+    },
+    {
+      "query": "path:zettelkasten/references",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "path:athenaeum",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.44651070926966,
+  "lineSizeMultiplier": 2.97431969803371,
+  "collapse-forces": false,
+  "centerStrength": 0.459094101123596,
+  "repelStrength": 6.05775983146067,
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.3649586722795146,
-  "close": false
+  "close": true
 }

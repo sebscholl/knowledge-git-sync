@@ -1,6 +1,6 @@
 202208241131
 
-Status: #info
+Status: #reference
 Tags: [[servers & networking]]
 
 # Setting up a remote SSH for Linux PC
