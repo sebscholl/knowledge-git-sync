@@ -2,6 +2,26 @@
 
 # Question: What’s the most inventive or innovative thing you’ve done?
 
+### Sub-prompts
+- Why hadn't this been explored already? 
+- Why did you move forward?
+- What were the results or what was the impact?
+- How do you know your solution addressed the problem?
+- Ask for one or two more examples to see if it's a pattern of innovative thinking. 
+- What was the problem it was solving?
+- What was innovative about it?
+- How did you know you were focusing on the right things? 
+- What was the outcome? 
+- Would you have done anything differently?
+- Did you take that opportunity? 
+- Why or why not? 
+- What was the outcome? 
+- What was the problem and why did it require a novel approach? 
+- Was your approach successful? 
+- What assumptions did you have to question? 
+- How did you evaluate if the change improved the process? 
+- Knowing what you know now, would you do anything differently?
+
 Early in my career, I spent one year in sales at a software as a service (SaaS) startup. My onboarding and training consisted of PowerPoint presentations on product and culture for five consecutive days, then moved to immediately calling sales leads. Management knew this training was insufficient for new hires, so they handicapped our sales targets during the first six months by 75%.
 
 It felt unconventional that I was only required to meet 25% of my quota. I soon learned it was a common practice termed "ramp" – the time given to a new sales hire to achieve expected productivity and meet sales targets. However, it being a common practice didn't influence me to view it as a good practice. Ramp causes many negative economic implications for businesses. It also leads to customers engaging with ill-prepared and untrained new hires.

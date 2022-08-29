@@ -1,7 +1,9 @@
 #behavorial-interviewing #interviewing #amazon 
 
 # Bias for Action Story
-
+- **We don't always make the right decision all the time. Tell me about a time when you made a bad decision?** 
+- **We don't always make the right judgment all the time. Tell me about a time when you made an error in judgment?** 
+- **Tell me about a time when you discovered that your idea was not the best course of action?** 
 ## Related Knowledge
 - [[leadership-principles#Customer Obsession]]
 - [[leadership-principles#Ownership]]
@@ -9,9 +11,7 @@
 • [[behavorial-interview-questions]]
 
 ## Question Wording
-- **We don't always make the right decision all the time. Tell me about a time when you made a bad decision?** 
-- **We don't always make the right judgment all the time. Tell me about a time when you made an error in judgment?** 
-- **Tell me about a time when you discovered that your idea was not the best course of action?** 
+
     
     **S:** Earlier on at 8base – my current employer – we were experiencing a pretty steady flow of developer support emails that myself and several developers I managed were responsible for responding to/handling; there was no system in place for managing these in-bound requests. In light of our product centric responsibilities, our email response time wasn’t exactly the best. One email in particular that a customer sent directly to our CEO about not having received any support on an important bug for over a week is what finally tipped the scales, and made us all say “we need to do something about this.”
     
@@ -26,19 +26,7 @@
     1. 24-hour accessibility/availability (providing support while we sleep)
     2. Organization/prioritization of support queries (allowing nothing to fall through the cracks)
     
-    With these in-mind, I dug in on finding the most cost effective ways of solving this issue and ended up arriving at building a support forum community on Discourse. Doing so provided a very accessible and public platform for us to handling support conversations, which other users could then benefit from learning from or participating in around the clock. It alleviated us from the expectation of “chat-like” support, which we simply didn’t have the human capital/time resources to provide.  Additionally, it allowed us to organize around the tool, and easily gather insights around engagement, response times, and other metrics.
+    With these in-mind, I dug in on finding the most cost-effective ways of solving this issue and ended up arriving at building a support forum community on Discourse. Doing so provided a very accessible and public platform for us to handle support conversations, which other users could then benefit from learning from or participating in around the clock. It alleviated us from expecting “chat-like” support, which we simply didn’t have the human capital/time resources to provide.  Additionally, it allowed us to organize around the tool, and easily gather insights around engagement, response times, and other metrics.
     
     This course correction ended up being a great solution which we still rely heavily on today. An unintended benefit of which was that all these support conversations are indexed by search engines, and has led to the community being one of our primary lead generation assets.
 
-
-**What was the impact of that decision?**
-
-**What did you learn?** 
-
-**How have you applied what you learned?**
-
-**What was the best course of action?** 
-
-**Who provided it?** 
-
-**What did you learn from the experience?**

@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "12f1df15857f75bd",
+        "id": "f15bb1c30a54b365",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "manifesto.md",
+            "file": "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 1.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "5090c51600383e7d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "athenaeum/career/amazon/behavorial-interview-stories/Paying for Jorge's Web Dev Education During Pivot.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zettel",
+                "query": "cache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 555.5
   },
   "right": {
     "id": "ff155650f3da09c1",
@@ -77,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manifesto.md",
+                "file": "athenaeum/career/amazon/behavorial-interview-stories/Paying for Jorge's Web Dev Education During Pivot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manifesto.md",
+                "file": "athenaeum/career/amazon/behavorial-interview-stories/Paying for Jorge's Web Dev Education During Pivot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manifesto.md"
+                "file": "athenaeum/career/amazon/behavorial-interview-stories/Paying for Jorge's Web Dev Education During Pivot.md"
               }
             }
           }
@@ -127,17 +139,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "12f1df15857f75bd",
+  "active": "5090c51600383e7d",
   "lastOpenFiles": [
-    "zettelkasten/zettels/principles triumph techniques.md",
-    "zettelkasten/zettels/zettelkasten.md",
-    "zettelkasten/zettels/differentiation between connection and collection in Zettelkasten.md",
-    "zettelkasten/references/asus ROG IP Address.md",
-    "zettelkasten/references/setting up a remote SSH for Linux PC.md",
-    "zettelkasten/references/preventing sleep mode on Linux.md",
-    "zettelkasten/zettels/2022-08-24.md",
-    "zettelkasten/zettels/ssh connecting to a remote linux PC.md",
-    "manifesto.md",
-    "zettelkasten/zettels/all databases are the same.md"
+    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 1.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Finding out Ilya was Spreading Rumors to Guard Control.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Working with Kevin on Salez.io.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 2.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Pivoting RampEX from VR to Web.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Passthrough Pricing Model not Being Adopted or Endorsed by Team.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Getting Behind App Builder as Opposed to Backend Focus.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Avoiding a Pivot to Citizen Developers for 8base.md",
+    "athenaeum/career/amazon-lvl-6-sdm.md",
+    "athenaeum/education/technology/caching systems.md"
   ]
 }
