@@ -21,7 +21,6 @@
 **Task**
 - Once I secured startup capital, it was time to build a team and get to the real work!
 	- First, I needed to architect a solution to identify the required competencies
-- The goal was to launch the first version of our system as a Pilots in 10 months
 
 **Action**
 - I went through my own System Design Exercise (can break down if needed)

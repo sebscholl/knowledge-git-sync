@@ -55,11 +55,11 @@
 		- Princeton Wordnet
 		- Semantic Similarity
 - I explored the concepts in depth and leveraging them in developing a Semantic Similarity algorithim
-	- Was able to develop a performant algorithm that solved for our use case
+	- Algorithm solved for our use case
 	- We deployed it as a microservive on AWS
 - What was cool about this algorithm was that I recognized meaning over keywords
 	- "My car need to be washed" and "The truck needs cleaning"
 		- 0 shared words leading to 0 match with BoW/Keyword
-		- My algortithm scored them at ~75%
+		- My algortithm scored them at ~65%
 - For customers (people training) this seemed like magic
 	- Navigate dialogs and objection comfortably and casually 

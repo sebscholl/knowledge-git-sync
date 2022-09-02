@@ -81,12 +81,12 @@
 **Result** 
 - Unfortunately, he didn't bring it back around. 
 	- At that point, the business suffered too much 
-	- Columbian teams continued to report unnecessary
+	- Columbian teams continued to report unfair treatment
 	- I made the call to let him go.
 - I had developed a strong relationship with the other Russian PM, Maxim
 	- He agreed to step up and assume some of Ilya's core responsibilities 
 	- I took on others while we identified a replacement.
 	- Within 4-weeks, we were able to bring on a new PM that came in with the right mindset
 - In the interim, I came up with an idea I had that helped repair a lot of animosities that had developed between the teams 
-	- The Columbian and Russian programmers who spoke English were paired up for an hour each day for paired programming
+	- The Columbian and Russian programmers who spoke English (50%) were paired up for an hour each day for paired programming
 	- This helped greatly build their human connection and quickly dispel the negative sentiment

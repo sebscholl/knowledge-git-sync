@@ -41,7 +41,7 @@ Boston Based
 1. Calibration happens both in Q1 and Q3 - Manager-only process that includes stack ranking with internal targets. Typically, the bottom 5% of the population is ranked as LE (Least Effective). Calibrations drive performance review and financial outcomes (equity refresh, bonuses). 
 	1. How do these run? 
 	2. How do the best managers prepare for these?
-2. How do you address bias on Alexa Knowledge?
+2. Described Fact-based Q&A, but how do you address bias on Alexa Knowledge?
 	1. "What's the best rated coffee?"... According to who?
 3. Could addressing bias be best solved by creating bias?
 	1. Adopting well defined personas to help interpret subjective information

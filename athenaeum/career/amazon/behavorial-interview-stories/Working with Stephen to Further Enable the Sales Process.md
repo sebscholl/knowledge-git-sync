@@ -60,6 +60,7 @@
 	- Discovered a data-enrichment tool that would automate LinkedIn profile data collection
 	- Developed sussinct discovery questions for 10-minute call
 	- Came up with "Customer Profile" that would be reviewed to determine who would best influence the customer (CTO? CEO? ME? etc.)
+		- Consider senority and skillset
 
 **Result**
 - Data Enrichment tool had 90% hit rate

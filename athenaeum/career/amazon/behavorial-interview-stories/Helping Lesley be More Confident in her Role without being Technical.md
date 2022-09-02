@@ -36,13 +36,13 @@
 - Explained to her to: 
 	- There are some fundamentals I believe she'd enjoy learning
 	- A great exercise we could complete together is translating technical features into business value
-	- No one expected her to become technical! That's why I'm around.
-- She felt this was a great idea and took me up on the offer
+- No one expected her to become technical! That's why I'm around.
+	- She felt this was a great idea and took me up on the offer
 
 **Result**
 - Within a few sessions, I was able to help her get a conceptual understanding of our product
 	- In no means an architect, though could articulate the *how, what,* and *why* of a BaaS
-- Went feature by feature and come up with business value messaging that she felt confident in delivering
+- Went feature by feature and came up with business value messaging that she felt confident in delivering
 	- As hoped, this led to: 
 		- Significantly better discovery calls
 		- Less reliance on me in conversations

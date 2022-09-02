@@ -11,13 +11,13 @@
 
 **We all have things about ourselves we'd like to improve on at work. Give me an example of something that you've worked on to improve your overall work effectiveness.** 
 
+**Give me an example of a time when you explored a new or unexpected area of an existing space.**
+
 #### [[Pivoting RampEX from VR to Web]]
 **Tell me about a time when you didn’t know what to do next or how to solve a challenging problem.**
 
  **Tell me about a time when you used external trends to improve your own company's products or services.** 
 
-#### [[What’s the most inventive or innovative thing you’ve done?]]
-**Give me an example of a time when you explored a new or unexpected area of an existing space.**
 
 #### [[Getting Behind App Builder as Opposed to Backend Focus]]
 **Describe a time when someone on your team challenged you to think differently about a problem.**

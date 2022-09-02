@@ -57,6 +57,11 @@
 	- Linked them to the documentation
 	- Promoting our company and brand on YouTube
 	- Distributed the videos via email newsletter
+- In many ways, this was the missing link
+	- Developer support queries "elevated"
+		- Problem-based Q's 
+	- YouTube views started ticking up
+	- Meanwhile, it armed other employees at the company to forward videos relevant to Q's when they did come in
 - That Channel has grown to 750 Subscribers
 	- 65,000 views and 3000 hours of watch time
 	- By far, our most engaging content and content

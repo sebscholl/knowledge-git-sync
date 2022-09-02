@@ -2,6 +2,23 @@
 
 ## [[Amazon Leadership Principles#Insist on the Highest Standards]]
 
+#### [[Working with Kevin on Salez.io]]
+**Describe a time when you refused to compromise your standards around quality/customer service, and so on**
+
+**Tell me about a time when you had to make a decision between standards and delivery.**
+
+#### [[What’s the most inventive or innovative thing you’ve done?]]
+**Tell me about a time when you were unsatisfied with the status quo**
+
+**Give me an example of a goal you’ve had where you wish you had done better.**
+
+**Describe the most significant continuous improvement project that you led.**
+
+#### [[Creating a YouTube Channel for 8base Developer Training]]
+**Tell me about a time when you worked to improve the quality of a product/service/solution that was already getting good customer feedback.**
+
+**Tell me about a time when you used feedback about your team to drive a change.**
+
 ## [[Amazon Leadership Principles#Bias for Action]]
 
 #### [[Pivoting RampEX from VR to Web]] 

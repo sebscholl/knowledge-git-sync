@@ -28,13 +28,13 @@
 		- Which team members intend to fight
 		- Which team members are looking to flee
 		- What team members want to keep working/leave (protect family, etc.)
-	- Explained Customer's concerns with security 
-		- Needed to quickly transfer project ownership over to Columbian counterparts
 	- Asked for a breakdown of the economics 
 		- How much money do they have for salaries?
 		- What's a realistic relocation budget?
 			- Where could they relocate?
 			- Who had families/spouses?
+	- Explained Customer's concerns with security 
+		- Needed to quickly transfer project ownership over to Columbian counterparts
 - Went back to execs and proposed:
 	- We wire out 3-months salaries immediately
 		- Necessary to avoid project abandonment (Big risk / unsecured)
@@ -61,4 +61,4 @@
 		- Working fully remote Georgia, Turkey, and Armenia
 	- Successfully incentivized the different stakeholders in this crisis to complete the critical path items
 		- Knowledge/work transfer
-		- Maintaining core talent 
+		- Maintaining core talent in a way that aligned with customer needs.
