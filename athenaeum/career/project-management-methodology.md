@@ -81,3 +81,9 @@ Data that I use and seek out when making decisions.
 - This is calculated ongoing
 6. Analyze the results to identify trends in quality, if any exist at all
 - As long as we’re maintaining (as a fast-moving startup) 80%+ test coverage on production code and a 99.95+ uptime, we’re in a good spot. Or at least a spot where we can not worry about the integrity of the solution and instead the value gained by users/
+
+
+___
+
+## Reference
+[[MTDD Metric Test Driven Development]]

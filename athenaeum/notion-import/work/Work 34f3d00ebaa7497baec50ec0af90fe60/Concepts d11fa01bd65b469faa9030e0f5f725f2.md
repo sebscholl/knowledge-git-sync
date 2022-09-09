@@ -69,3 +69,13 @@ A Business Communication app that brings Email, SMS, Chat, File Storage/Sharing 
 _____________
 
 Maybe we should make vitamin infused nails for girls with anxiety. It will allow them to both feel beautiful yet turn their bitting into a healthy habit.
+
+-------------
+
+Instructables.com, but for DIY projects with things you can buy off Amazon. The goal would be to allow people an awesome experience for publishing tutorials, and then any products they link to in Amazon (and other supported stores) become an affiliate link that they get a revenue split with the platform. 
+
+[Amazon Affiliates Program](https://affiliate-program.amazon.com/)
+
+_____________
+
+

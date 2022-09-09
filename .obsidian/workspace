@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "85497cea05164596",
+        "id": "357796d35002bb08",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "athenaeum/education/technology/programming/The Rust Programming Language/202209021649.md",
-            "mode": "preview",
+            "file": "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"** **\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "athenaeum/education/technology/programming/The Rust Programming Language/202209021649.md",
+                "file": "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "athenaeum/education/technology/programming/The Rust Programming Language/202209021649.md",
+                "file": "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "athenaeum/education/technology/programming/The Rust Programming Language/202209021649.md"
+                "file": "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md"
               }
             }
           }
@@ -128,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "85497cea05164596",
+  "active": "357796d35002bb08",
   "lastOpenFiles": [
+    "athenaeum/career/shopify-pm-director.md",
+    "athenaeum/career/project-management-methodology.md",
+    "zettelkasten/zettels/MTDD Metric Test Driven Development.md",
+    "zettelkasten/zettels/Untitled.md",
+    "athenaeum/career/amazon-lvl-6-pm.md",
+    "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
+    "athenaeum/notion-import/work/Work 34f3d00ebaa7497baec50ec0af90fe60/Concepts d11fa01bd65b469faa9030e0f5f725f2.md",
     "athenaeum/career/amazon-lvl-6-sdm.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 1.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 5.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Working with Kevin on Salez.io.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Getting Behind App Builder as Opposed to Backend Focus.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 4.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Realizing Slack was Terrible for Customer Support and then Moving to Discourse.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Switching from 14-day Free Trial to Free Tier on 8base.md",
-    "athenaeum/career/What’s the most inventive or innovative thing you’ve done?.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Working with Alex on Virtual Vision and Coaching Him as Team Dev.md"
+    "athenaeum/career/amazon/behavorial-interview-stories/Why do I want to work for Amazon?.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 1.md"
   ]
 }
