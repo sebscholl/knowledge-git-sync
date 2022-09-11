@@ -5,7 +5,7 @@ Tags: #rust #notes #rust/basics
 
 # The Rust Programming Language 
 
-Bookmark - [Bookmark](https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html)
+Bookmark - [Bookmark](https://doc.rust-lang.org/book/ch11-00-testing.html)G
 
 ### 1.3 Hello, Cargo
 
@@ -850,6 +850,394 @@ fn read_username_from_file() -> Result<String, io::Error> {
 // V3
 fn read_username_from_file() -> Result<String, io::Error> {
     fs::read_to_string("hello.txt")
+}
+```
+
+## Generic Types, Traits, and Lifetimes
+#rust/types/generics
+
+The idea of a generic type allows you to consider the same code being run on multiple types passed to it. For example:
+
+```rust
+// Maybe you want this for numbers, floats, and strings?
+a.add(b)
+```
+
+In these cases, we can declare a generic for the function and give it a name (like "T")
+
+```rust
+fn add<T>(&self, &T) -> &T {
+	// Do code
+} 
+// Example from worksheet
+fn largest<T: std::cmd::PartialOrd>(list: &[T]) -> &T {
+    let mut largest = &list[0];
+
+    for item in list {
+        if item > largest {
+            largest = item;
+        }
+    }
+
+    largest
+}
+
+fn main() {
+    let number_list = vec![34, 50, 25, 100, 65];
+
+    let result = largest(&number_list);
+    println!("The largest number is {}", result);
+
+    let char_list = vec!['y', 'm', 'a', 'q'];
+
+    let result = largest(&char_list);
+    println!("The largest char is {}", result);
+}
+```
+
+We can also define structs to use a generic type parameter in one or more fields using the `<>` syntax. Listing 10-6 defines a `Point<T>` struct to hold `x` and `y` coordinate values of any type.
+
+Meanwhile, we're able to make structs more flexible by having multiple generics passed to them.
+
+```rust
+// Types can mix and match
+struct Point<T, U> {
+    x: T,
+    y: U,
+}
+
+fn main() {
+    let both_integer = Point { x: 5, y: 10 };
+    let both_float = Point { x: 1.0, y: 4.0 };
+    let integer_and_float = Point { x: 5, y: 4.0 };
+}
+```
+
+More complex example of declaring generics on methods implimented on a struct.
+
+```rust
+// Generics for Point values declared normally
+struct Point<X1, Y1> {
+    x: X1,
+    y: Y1,
+}
+// Generics for impl matching point struct definition
+impl<X1, Y1> Point<X1, Y1> {
+	// New generics declared specifically for this function as 
+	// they're only relevant to this method
+    fn mixup<X2, Y2>(self, other: Point<X2, Y2>) -> Point<X1, Y2> {
+        Point {
+            x: self.x,
+            y: other.y,
+        }
+    }
+}
+
+fn main() {
+    let p1 = Point { x: 5, y: 10.4 };
+    let p2 = Point { x: "Hello", y: 'c' };
+
+    let p3 = p1.mixup(p2);
+
+    println!("p3.x = {}, p3.y = {}", p3.x, p3.y);
+}
+```
+
+Generics are what's we've been seeing in  the Enums such as `Option<T> || Result<T, E>`.  
+
+### Traits
+#rust/types #rust/types/traits
+
+*Traits* in rust allow us to define a type a behavior that can be shared across many different generic types. They can be added ad-hoc or included directly in the type.
+
+```rust
+// If we imagine having custom types like NewsArticle and Tweet. Both store
+// textual data while are different in certain characteristics. Both though
+// could use a 'summarize' method which summarizes the text.
+//
+// The trait will still require associated types to declare
+// their own implimentations of the summarize method.
+pub trait Summary {
+    fn summarize(&self) -> String;
+    // Other method signatures...
+    // The trait fn definition doesn't need to be empty.
+    // A default function can be placed in the trait so
+    // that any type it's implimented on can be left {}
+    // and the default implimentation adopted.
+    //
+    // fn summarize(&self) -> String {
+    //     String::from("Read more...")
+    // }
+    // Traits may also call methods within the trait, whether
+    // or not they have a default.
+    //
+    // fn summarize_author(&self) -> String;
+    //
+    // fn summarize(&self) -> String {
+    //     format!("Read more from {}", self.summarize_author())
+    // }
+}
+
+pub struct NewsArticle {
+    pub headline: String,
+    pub location: String,
+    pub author: String,
+    pub content: String,
+}
+// impl TRAIT_NAME(Summary) for TYPE_NAME(NewsArticle)
+impl Summary for NewsArticle {
+    fn summarize(&self) -> String {
+        format!("{}, by {} ({})", self.headline, self.author, self.location)
+    }
+}
+
+pub struct Tweet {
+    pub username: String,
+    pub content: String,
+    pub reply: bool,
+    pub retweet: bool,
+}
+// impl TRAIT_NAME(Summary) for TYPE_NAME(NewsArticle)
+impl Summary for Tweet {
+    fn summarize(&self) -> String {
+        format!("{}: {}", self.username, self.content)
+    }
+}
+
+fn main() {
+    let tweet = Tweet {
+        username: String::from("horse_ebooks"),
+        content: String::from("of course, as you probably already know, people"),
+        reply: false,
+        retweet: false,
+    };
+
+    let article = NewsArticle {
+        headline: String::from("Penguins win the Stanley Cup Championship!"),
+        location: String::from("Pittsburgh, PA, USA"),
+        author: String::from("Iceburgh"),
+        content: String::from(
+            "The Pittsburgh Penguins once again are the best \
+             hockey team in the NHL.",
+        ),
+    };
+
+    println!("New article available! {}", article.summarize());
+    println!("1 new tweet: {}", tweet.summarize());
+}
+```
+
+When you have a defined trait, you can use it as an abstract representation of a function parameter, saying, "any type that implements this trait is a valid argument."
+
+```rust
+// TYPE for item is a ref to any argument that has the Summary trait 
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
+
+// impl Trait is syntactic sugar for the following
+// pub fn notify<T: Summary>(item: &T) {
+//    println!("Breaking news! {}", item.summarize());
+// }
+```
+
+In more complex scenarios, it may be valuable to default back to the verbose syntax, like when needing to declare the same trait across multiple variables.
+
+```rust
+pub fn notify(item1: &impl Summary, item2: &impl Summary);
+// becomes more clean and legible
+pub fn notify<T: Summary>(item1: &T, item2: &T);
+```
+
+Meanwhile, multiple traits can be specified using the addition sign.
+
+```rust
+pub fn notify(item: &(impl Summary + Display));
+// OR
+pub fn notify<T: Summary + Display>(item: &T);
+```
+
+There is a special keyword in the function signature called `where` that allows us to more cleanly articulate compound traits associated with a specific generic.
+
+```rust
+fn some_function<T: Display + Clone, U: Clone + Debug>(t: &T, u: &U) -> i32 {};
+// becomes
+fn some_function<T, U>(t: &T, u: &U) -> i32 where T: Display + Clone, U: Clone + Debug
+{};
+
+```
+
+Again, we see another example where just like we can pass an argument of any type that implements a specific trait, we can get return an argument that implements a certain trait.
+
+```rust
+fn returns_summarizable(switch: bool) -> impl Summary {
+	Tweet {
+		username: String::from("horse_ebooks"),
+		content: String::from(
+			"of course, as you probably already know, people",
+		),
+		reply: false,
+		retweet: false,
+	}
+}
+```
+
+We can conditionally implement methods on structs by taking into consideration what kinds of traits they have. For example:
+
+```rust
+// Import trait Display
+use std::fmt::Display;
+// Declare struct that accepts any generic type
+struct Pair<T> {
+    x: T,
+    y: T,
+}
+// Implement the new() method, allowing for any generic type
+impl<T> Pair<T> {
+    fn new(x: T, y: T) -> Self {
+        Self { x, y }
+    }
+}
+// Conditionally implement methods if generic has
+// has Display + PartialOrd traits.
+impl<T: Display + PartialOrd> Pair<T> {
+    fn cmp_display(&self) {
+        if self.x >= self.y {
+            println!("The largest member is x = {}", self.x);
+        } else {
+            println!("The largest member is y = {}", self.y);
+        }
+    }
+}
+
+```
+
+### Lifetimes
+#rust/types/lifetimes
+
+Lifetimes ensure a reference is valid as long as we need it. While most lifetimes are implicit or inferred (similar to most inferred types), we sometimes need to express them explicitly in our code. 
+
+Lifetimes are a type of *generic* in that the names don't mean anything but act as a label for the explicit lifetime. The main aim of a lifetime is to prevent a *dangling reference*; the program accessing data other than the data a reference is supposed to access.
+
+```rust
+fn main() {
+    // OUTER SCOPE
+    let r;
+
+    {
+        // INNER SCOPE
+        let x = 5;
+        // Reference to x is set to outerscope variable y
+        r = &x;
+    } // x is dropped from memory
+
+    // r is set to a reference that no longer exists!
+    println!("r: {}", r);
+}
+```
+
+Rust validates lifetimes using the *borrow checker* to determine if a reference (borrows) are still valid.
+
+```rust
+// Borrow checker in action!
+fn main() {
+    let r;                // ---------+-- 'a
+                          //          |
+    {                     //          |
+        let x = 5;        // -+-- 'b  |
+        r = &x;           //  |       |
+    }                     // -+       |
+                          //          |
+    println!("r: {}", r); //          |
+}                         // ---------+
+```
+
+What's interesting about lifetimes is that they don't actually change how long a reference lives. They only help the compiler by describing the relationships of the lifetimes of multiple references to each other.
+
+```rust
+&i32        // a reference
+&'a i32     // a reference with an explicit lifetime
+&'a mut i32 // a mutable reference with an explicit lifetime
+```
+
+When annotating lifetimes in functions, the annotations go in the function signature, not in the function body. The lifetime annotations become part of the contract of the function, much like the types in the signature.
+
+```rust
+// The lifetime declarations in the function signature tell
+// the compiler that these references live at least as long
+// as lifetime 'a, which in this context enters and exists
+// the function.
+fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+    // In this example rust compiler doesn't
+    // know whether to expect x or y as the
+    // return. Because of this, we need to
+    // specify explicit lifetimes for them.
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
+}
+```
+
+When returning a reference from a function, the lifetime parameter for the return type needs to match the lifetime parameter for one of the parameters. If the reference returned does _not_ refer to one of the parameters, it must refer to a value created within this function.
+
+Lifetimes can also be leveraged in structs that hold references.
+
+```rust
+// Struct holds a slicing string from a longer text and has
+// lifetime declared in angle-brackets after name.
+//
+// THIS MEANS THAT AN INSTANCE OF IMPORTANTEXCERPT CANNOT OUTLIVE
+// A REFERENCE IT HOLDS IN THE PART FIELD.
+#[derive(Debug)]
+struct ImportantExcerpt<'a> {
+	// Part fields lifetime
+    part: &'a str,
+}
+
+fn main() {
+    let novel = String::from("Call me Ishmael. Some years ago...");
+    let first_sentence = novel.split('.').next().expect("Could not find a '.'");
+    let i = ImportantExcerpt {
+        part: first_sentence,
+    };
+
+    print!("{:#?}", i);
+}
+```
+
+There is one special lifetime called `'static` which denotes that the reference *can* live or the whole program. For example, any string literal has a `'static` lifetime by default as they're stored directly in the program binary and immutable. 
+
+```rust
+// Pedantic lifetime, not necessary to explicitly declare.
+let s: &'static str = "I have a static lifetime.";
+```
+
+Quick look at syntax for adding lifetime to Generic Types and Trait Bunder.
+
+```rust
+use std::fmt::Display;
+
+// Lifetime ins are a type of Generic, so they go in the angle brackets
+fn longest_with_an_announcement<'a, T>(
+	// x and y have specified lifetime
+    x: &'a str,
+    y: &'a str,
+    // ann doesn't require a lifetime as it can be implicitly determined
+    ann: T,
+// Lifetime out is declared
+) -> &'a str
+// Println! macro requires type with Display trait, so generic T qualifies the inclusion of this trait.
+where
+    T: Display,
+{
+    println!("Announcement! {}", ann);
+    if x.len() > y.len() {
+        x
+    } else {
+        y
+    }
 }
 ```
 

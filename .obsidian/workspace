@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         }
@@ -129,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "357796d35002bb08",
+  "active": "2363775c4bdf904b",
   "lastOpenFiles": [
+    "zettelkasten/zettels/When to throw errors vs handle errors in Rust.md",
+    "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
+    "athenaeum/career/amazon-lvl-6-pm.md",
     "athenaeum/career/shopify-pm-director.md",
     "athenaeum/career/project-management-methodology.md",
     "zettelkasten/zettels/MTDD Metric Test Driven Development.md",
     "zettelkasten/zettels/Untitled.md",
-    "athenaeum/career/amazon-lvl-6-pm.md",
-    "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
     "athenaeum/notion-import/work/Work 34f3d00ebaa7497baec50ec0af90fe60/Concepts d11fa01bd65b469faa9030e0f5f725f2.md",
     "athenaeum/career/amazon-lvl-6-sdm.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Why do I want to work for Amazon?.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Stories for Amazon Loop Interview 1.md"
+    "athenaeum/career/amazon/behavorial-interview-stories/Why do I want to work for Amazon?.md"
   ]
 }
