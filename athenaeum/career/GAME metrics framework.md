@@ -1,66 +1,6 @@
-#interviewing #project_management #shopify
+# G.A.M.E Framework for Metrics
+The GAME framework is a **4-step process that can define metrics for any feature or product**. For the remainder of the post, I will refer to a hypothetical “product” but feel free to substitute in “feature” whenever a “product” is discussed.
 
-# Shopify Product Management Director
-
-**Role: Product Management Team**
-
-## **Impact**
-
-Can you demonstrate a positive impact you’ve made on others? This includes performance achievements in past roles, in societies at college/uni, volunteering or just in your personal life.
-
-## Readiness
-
-Do you have the skills required for the job post you’re applying for?
-
-## Trust
-
-Are you authentic and are you capable of building trust with others? Can you demonstrate scenarios where you were trusted in the past, and how did you respond to the responsibility?
-
-## Engagement
-
-Are you engaged and enthusiastic about passions in your work and personal life? Can this be translated into genuine engagement with your work at Shopify?
-
-## Self-Awareness
-
-Are you aware of your strengths and weaknesses? Do you know what’s needed for self-growth?
-
-### Sample Questions
-
-- What is your background? Where are you from?
-- What have you done in the past?
-- How has your past experience shaped you?
-- What value did you provide to your past roles?
-- Where does your passion and commitment to your work come from?
-- What are your interests and hobbies? What engages you?
-
-## Story Bank
-
-Tell me a time when you overcame a challenge
-
-- Transitioning 8base to Columbia team
-
-Give me an example of a time when you had to break some bad news
-
-- Transitioning 8base to Columbia team
-    - OR
-- Telling investors of RampEX shutting down
-
-Tell me a time when you were proud of yourself
-
-- Buying first apartments
-
-Tell me an instance where you grew or improved yourself
-
-- Constant self-improvement. Learning sculpture and jewelry making as a balancing act to technology.
-
-Tell me about your interests
-
-- Do you have an extra hour? Music, jewelry, health, and tech. Each satisfying a different part of my brain.
-
-Tell me about a time when you made a mistake. How did you resolve it?
-
-
-### Analytical Questions
 *MANTRA: Defining metrics is AS IMPORTANT as defining feature requirements!*
 
 Good metrics quantify/measure the **actions** a user takes within the product to extract value and achieve their **goals**. Tracking these actions overtime becomes **metrics**.
@@ -89,6 +29,11 @@ There are two types of *goals* to consider; User and Business goals.
 - Does this product or feature make us more competitive?
 - Will this product/feature lead to entering a new market?
 - What does my business look like if this product/feature is successful?
+- **4 Ways a Product can be Valuable to a Business**
+	-> Increase sales
+	-> Decrease cost
+	-> Decrease risk (If a quantifiable risk impacts sales/cost and removing it helps)
+	-> Improve opportunity (Changes that lead to increased opportunities)
 
 ## Actions
 Actions should become a quantitative list of things you want your user to do within your product. Don't worry about numbers or trackability; you're still creating a narrative.
@@ -176,33 +121,3 @@ At the evaluation stage, there is really the opportunity to step back an evaluat
 **Evaluating Goals**
 - Is the metric correlating to business or user success?
 - Are your users happier when your metrics are positive?
-
-## Design Thinking
-This category is about demonstrating user empathy, product visioning, and design sensibilities. Try mentioning tradeoffs of approaches.
-
-**Questions**
-- How would you improve new merchant sign-ups?
-- If you were to build the next tool to help our merchants succeed, what woud it be?
-- How will you design better support for friendly returns processes to ultimately make merchants more successful?
-
-## Technical
-Show you're technical. Over-index on understanding software and system design.
-
-**Questions**
-- What data points would you use to define a product recommendation engine?
-- What are some concerns with ingesting data from a 3rd party source?
-
-## Team Work
-Show that you can work cross-functionally and on a team.
-
-**Questions**
-- What would you do if you and another PM had string opposing opinions?
-- How do you work with developers and designers?
-
-You can use stories to respond to these answers. Just like in your Amazon interviews. However, instead of highlighting the leadership principles, Shopify is indexing for:
-
-1. Impact - do you leave a big impact on others around you?
-2. Trust - can you communicate?
-3. Engagement - do you invest in work and life?
-4. Self-awareness - do I know my strength and weaknesses?
-5. Readiness - are you qualified?

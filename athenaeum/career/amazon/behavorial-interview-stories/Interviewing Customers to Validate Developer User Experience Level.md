@@ -24,7 +24,10 @@
 - In this role, I managed the UX/UI designer and had the Engineering Team Lead (a Project Manager) as a direct report.
 - Through our support channels, we'd gotten customer/developer feedback
 	- that RBAC system was too rigid
-	- Needed flexibility for Multi-tenant SaaS RBAC 
+- I reached out to several of these developers and was able to organize a focus group
+	- Needed flexibility for Multi-tenant SaaS RBAC, two interesting use cases
+		- Single-instance multi-tenant SaaS
+		- Tenant-level configurable permissions and settings
 - This feature improvement was one of the first projects I led
 	- After several working sessions with the PM and engineers:
 		- Came up with an extremely flexible system
@@ -46,7 +49,7 @@
 
 **Action**
 - I asked for a small budget to incentivize users to a 30-minute meeting
-	- $50 Amazon gift card for 30 minute discovery interview
+	- $50 Amazon gift card for 30-minute discovery interview
 	- Structured questions:
 		- How'd you hear of us?
 		- How technical do you consider yourself?
@@ -72,13 +75,51 @@
 **Results**
 - I uncovered some very interesting insights and data through this
 	- The least interesting of which may have been a JSON editor being beyond approachable and familiar by users who were actually building and getting value from the platform
+
+	- All developers consider themselves between 7 and 10 on "technical level"
+		- Change marketing psychology "let us handle the hard-stuff" or "a solution for junior/entry level X"
+	- 30 interviews: 
+		- 67% identified: "I love coding and using frameworks/libraries to solve interesting problems."*
+			- 0 and 5 years experience -> 
+				- 80% identified: *"I love coding and use..."*
+				- 60% identified: *"Solution Quality (code quality)"*
+		- 33% identified: *"I love learning to use platforms/tools that help me work faster".*
+			- 5 years of experience -> 
+				- 60% identified: "I love learning..."
+				- 100% identified: *"Development Speed"*
+		- *When struggling to solve a development challenge, are you most likely to...*
+			- Overall ->
+				-   73% responded **"****Teach me the required skills to solve it"**
+				-   20% responded **"Adopt/purchase a tool that solves it for me"**
+				-   7% responded **"Find/hire an expert who can solve it"**
+			-  4+ years of development experience -> 
+				- 100% responded: "Adopt/purchase a tool that solves it for me"
+			- 4- years of development experience 
+				- 81% responded: "Teach me the required skills to solve it."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## VERBOSE RESULTS
 - On a scale from 1 to 10, how technical do you consider yourself?
 	- No matter the interviewee's experience level or discipline, everyone identified themselves as between 7 and 10. That said, _ONE INSIGHT THAT MAY BE EXTRACTED_ is that all engineers/developers are quick and biased towards considering their own technical skills beyond their true competency level. If this is true, marketing and messaging that's written under the premise of a person "being aware of their own limitations and skill-sets" (i.e. "let us handle the hard-stuff" or "a solution for junior/entry level X") will likely be poorly received by the **user audience**; as no one in this initial test group was able/willing to self-identify as anything less-than highly-technical (whether they were 1-year into CSS or 20-years into enterprise software).
 - Which of these statements do you identify the most with? AND Which of the following values is most important to you when it comes to your work?
 	- Of the 15 interviews, 67% identified themselves by **"I love coding and using frameworks/libraries to solve interesting problems."** while 33% identified themselves by **"I love learning to use platforms/tools that help me work faster".** More interestingly, this is disproportionally weighted to less experienced developers. For those developers who had between **0 and 5 years experience,** 80% identified themselves by **"I love coding and use..."** while 20% identified themselves by **"****I love learning to use...".** This is insight is further enriched by the data that shows **Solution Quality (Code Quality)** being represented as 60% of the **0 and 5 years experience** developers primary concern (10% development speed, 20% Security, 10% Resource Optimization). 
-- Meanwhile, for those developers with over 5-years experience, **100% of interviews responded with Development Speed being their primary concern.** Additionally, **60% of developers with over 5-years experience identified themselves by "I love learning to use platforms/tools that help me work faster.**"
+- Meanwhile, for those developers with over 5 years of experience, **100% of interviews responded with Development Speed being their primary concern.** Additionally, **60% of developers with over 5 years of experience identified themselves by "I love learning to use platforms/tools that help me work faster.**"
 - Which low-code/no-code tools/platforms are you most familiar with today? AND Do you use low-code/no-code tools in your professional or personal projects?
-	- Interviewee's were somewhat quick to claim that they don't use low-code/no-code. However, it was largely due to a lack of familiarity with _what_ constitutes a no-code or low-code platform. After some further context, the participants ended up dividing evenly into 3 camps; **33% never use, 33% use for personal projects only, 33% use for both personal and professional projects.** That said, the _types_ of tools that they were familiar with and recognized were mainly **Shopify, Wordpress, and Firebase.** Only 1 respondent had knowledge of solutions like Retool or [Bubble.io](http://bubble.io/). 
+	- Interviewees were somewhat quick to claim that they don't use low-code/no-code. However, it was largely due to a lack of familiarity with _what_ constitutes a no-code or low-code platform. After some further context, the participants ended up dividing evenly into 3 camps; **33% never use, 33% use for personal projects only, 33% use for both personal and professional projects.** That said, the _types_ of tools that they were familiar with and recognized were mainly **Shopify, Wordpress, and Firebase.** Only 1 respondent had knowledge of solutions like Retool or [Bubble.io](http://bubble.io/). 
 
 - When struggling to solve a development challenge, are you most likely to...
 	-   73% responded **"****Teach me the required skills to solve it"**

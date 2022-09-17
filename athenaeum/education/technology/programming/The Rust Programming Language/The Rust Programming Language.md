@@ -1241,6 +1241,55 @@ where
 }
 ```
 
+## Writing tests
+Core macro for tests is the `assert!` macro, which expects a bool value. Other popular macros include:
+
+- `assert_eq!`
+- `assert_ne!`
+
+When comparing or asserting tests on custom structs and enums, ensure to derive the `#[derive(PartialEq, Debug)]` trait so that they can be printed in the test runner.
+
+```rust
+// Custom error message in the assertion.
+assert!(
+	!smaller.can_hold(&larger),
+	"A custom assertion method can be added: {:#?}",
+	larger
+);
+
+// When validating validations not caught by the compiler
+// you can derive the should panic trait to handle the
+// assert as opposed to code in the function. If a panic is used i
+// the code being tested, it will be output to the test runner. 
+#[test]
+// Message optional
+#[should_panic(expected = "less than or equal to 100")]
+fn greater_than_100() {
+	Guess::new(200);
+}
+```
+
+If you don't want a test to panic when it fails, use the `Result` type to throw a custom error and have the running continue.
+
+```rust
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn it_works() -> Result<(), String> {
+        if 2 + 2 == 4 {
+            Ok(())
+        } else {
+            Err(String::from("two plus two does not equal four"))
+        }
+    }
+}
+```
+
+If you need to test something returns an error, use: `assert!(value.is_err())`.
+
+By default rust uses parallelism when running tests, which could result in test errors thrown for mutally dependent
+
+
 ___
 # References
 [The Rust Programming Language](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html#hello-cargo)

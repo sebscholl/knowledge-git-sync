@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <base target="_blank">
+  <style>
+:root {
+  --fg: #000; /* foreground  */
+  --bg: #fff; /* background  */
+  --bd: #000; /* border  */
+  --lk: #0095dd; /* link */
+  --hg: #ffff81; /* highlight  */
+}
+html {
+  overflow: overlay;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  position: relative;
+
+  color: var(--fg);
+  border-color: var(--bd);
+  background-color: var(--bg);
+}
+body[data-mode="light"] {
+  color-scheme: light;
+  --fg:  #222;
+  --bd:  #222;
+  --bg:  whitesmoke;
+}
+body[data-mode="dark"] {
+  color-scheme: dark;
+  --fg:  #eee;
+  --bd:  #eee;
+  --bg:  #333;
+}
+body[data-mode="sepia"] {
+  color-scheme: light;
+  --fg:  #5b4636;
+  --bd:  #5b4636;
+  --bg:  #f4ecd8;
+}
+body[data-mode="solarized-light"] {
+  color-scheme: light;
+  --fg:  #586e75;
+  --bd:  #586e75;
+  --bg:  #fdf6e3;
+}
+body[data-mode="nord-light"] {
+  color-scheme: light;
+  --fg:  #2e3440;
+  --bd:  #2e3440;
+  --bg:  #e5e9f0;
+}
+body[data-mode="groove-dark"] {
+  color-scheme: dark;
+  --fg:  #cec4ac;
+  --bd:  #cec4ac;
+  --bg:  #282828;
+}
+body[data-mode="solarized-dark"] {
+  color-scheme: dark;
+  --fg:  #839496;
+  --bd:  #839496;
+  --bg:  #002b36;
+}
+body[data-mode="nord-dark"] {
+  color-scheme: dark;
+  --fg:  #e5e9f0;
+  --bd:  #e5e9f0;
+  --bg:  #2e3440;
+}
+@media print {
+  body {
+    --fg: #000;
+    --bd: #000;
+    --bg: #fff;
+  }
+}
+body[data-loaded=true] {
+  
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img:not([width])[src$=".svg"] {
+  max-width: 100px;
+}
+body[data-images=false] canvas,
+body[data-images=false] svg,
+body[data-images=false] img {
+  display: none;
+}
+a {
+  color: var(--lk);
+  text-decoration: none;
+}
+hr {
+  background-color: var(--bd);
+  height: 1px;
+  border: 0;
+}
+#reader-domain {
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border-bottom-color: currentcolor;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  display: inline-block;
+  direction: ltr;
+}
+#reader-domain > span:first-child {
+  font-size: 1.1em;
+}
+#reader-domain > span:last-child {
+  font-size: 0.8em;
+}
+#reader-title {
+  font-size: 1.6em;
+  line-height: 1.25em;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+}
+#reader-credits,
+#doi,
+#published-time,
+#reader-estimated-time {
+  font-size: 0.85em;
+  line-height: 1.48em;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+#reader-credits:not(:empty)::after {
+  content: ' ⋮ ';
+}
+#published-time:not(:empty)::before {
+  content: ' ⋮ ';
+}
+#doi-json {
+  overflow: hidden;
+}
+#doi-json code {
+  overflow: auto;
+  max-height: 400px;
+}
+#published-time:empty,
+#reader-credits:empty {
+  display: none;
+}
+body[data-speech="true"] .tts-box {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  z-index: 1;
+  pointer-events: none;
+  box-shadow: 0 0 0 1000vw rgba(128, 128, 128, 0.2);
+}
+body[data-speech="true"] ::selection {
+  background-color: #fff740;
+  color: #000;
+}
+.tts-box.hidden {
+  display: none;
+}
+body[data-speech="false"] .tts-speaking::after {
+  display: none;
+}
+mark.hghlght {
+  background-color: var(--hg);
+}
+.hidden {
+  display: none;
+}
+.note {
+  position: absolute;
+  z-index: 10;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+  min-width: 32px;
+  min-height: 32px;
+}
+.note:focus {
+  z-index: 11;
+}
+</style>
+  <style id="user-css">body {
+  padding-bottom: 64px;
+}
+a:visited {
+  color: #d33bf0;
+}
+a:link, a:link:hover, a:link:active, a:link * {
+  color: #0095dd;
+}
+a:link {
+  text-decoration: none;
+  font-weight: normal;
+}
+pre {
+  white-space: pre-wrap;
+}
+pre code {
+  background-color: #eff0f1;
+  color: #393318;
+  font-family: monospace;
+  display: block;
+  padding: 5px 10px;
+}
+body[data-mode="dark"] pre code {
+  background-color: #585858;
+  color: #e8e8e8;
+}
+
+/* CSS for sans-serif fonts */
+body[data-font=sans-serif] {}
+/* CSS for serif fonts */
+body[data-font=serif] {}
+
+/* CSS for "sepia" theme */
+body[data-mode=sepia] {}
+/* CSS for "light" theme */
+body[data-mode=light] {}
+/* CSS for "dark" theme */
+body[data-mode=dark] {}</style>
+<title>4 Steps to Defining GREAT Metrics for ANY Product :: Reader View</title></head>
+<body tabindex="1" data-images="true" data-mode="sepia" data-font="sans-serif" data-loaded="true">
+  <span></span> <!-- for IntersectionObserver -->
+  <a id="reader-domain" href="https://hackernoon.com/metrics-game-framework-5e3dce1be8ac">
+    <span>hackernoon.com</span>
+    <span>/metrics-game-framework-5e3dce1be8ac</span>
+  </a>
+  <h1 dir="auto" id="reader-title">4 Steps to Defining GREAT Metrics for ANY Product</h1>
+  <span dir="auto" id="reader-credits">Vince Law</span>
+  <span dir="auto" id="reader-estimated-time">16-20 minutes</span>
+  <span dir="auto" id="published-time">4/17/2017</span>
+  <hr>
+  <div id="readability-page-1" class="page"><div><h2>A Mental Model &amp; Framework You Can Use For New Products, Existing Products, and <strong><em>Even</em></strong> PM Interviews</h2>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<h4>In this&nbsp;series…</h4>
+<ul>
+<li><a href="https://medium.com/@vincelawco/picking-the-right-metrics-part-1-wtf-is-a-metric-ec037ac60d12?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc"><strong>Part 1:</strong> WTF is a Metric?</a> — <em>introduction to the basics of metrics, what it is, and why it matters.</em></li>
+<li><strong>Part 2: 4 Steps to Defining GREAT Metrics for ANY Product — how to develop a metric from scratch.</strong></li>
+<li><a href="https://medium.com/@vincelawco/wtf-is-your-metric-doing-to-your-customers-473942ea3829?source=friends_link&amp;sk=5ffcfea65e835b6837abf908f10b1365&amp;ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc"><strong>Part 3:</strong> WTF is Your Metric Doing to Your Customers?</a> <em>— how to avoid the unintended consequences of the “one metric that matters.”</em></li>
+</ul>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>Metrics matter. Your product’s success is dependent on and defined by metrics. Metrics are a lens into your product’s health and performance. Defining your metrics, therefore, should be as intrinsic to your product development process as defining requirements.</p>
+<p>In fact, metrics are one of the most frequently asked product manager interview questions:</p>
+<blockquote>
+<p>How would you define the success metric for feature&nbsp;X?</p>
+</blockquote>
+<h3>The Challenge</h3>
+<p>Developing metrics from scratch can be incredibly daunting, precisely because there is so much at stake. Unless you work in an industry where standard metrics are widely accepted (such as in gaming, e-commerce, or retail), metrics are anything but trivial.</p>
+<p>Many product managers start bottom-up: monitoring and collecting the near-infinite number of data points they can get a hold of. However, an obvious truth quickly begins to surface…</p>
+<blockquote>
+<p>…not all data are created&nbsp;equal.</p>
+</blockquote>
+<p>Just because you can track everything doesn’t mean you should. <strong>Some data are more valuable than others</strong> because they give you a unique insight into your product’s health. Conversely, there is a lot of subpar data that can cloud your judgement.</p>
+<h3>A Mental Model for&nbsp;Metrics</h3>
+<p>Let’s step back. Think about your product as a box:</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>You can start to instrument this box and collect all available data, but this can become an aimless approach characterized by constant trial-and-error.</p>
+<p>In order to build a product your users value, you first need to determine the inputs and outputs of this box. Your inputs are anything your users come to you with: their problems and their resources. Your outputs are the circumstances resulting from the use of your product. These become your <strong>goals</strong>.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>But this is not a black box. Most products require the user take <strong>actions</strong> within the product to extract value and achieve their <strong>goals</strong>.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>Quantifying and measuring these actions gives you insights into how (and how many) users are getting value from your product. When you track these actions over time, they become your <strong>metrics</strong>.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>Once you start to collect data for your metrics, you can then put them to work towards evaluating your product. The results of your <strong>evaluations</strong> can inform any number of adjustments in your <strong>goals</strong>, <strong>actions</strong>, or even <strong>metrics</strong> themselves.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>You can start to see that this very simple model can be applied in any number of ways:</p>
+<ul>
+<li>Defining success metrics for a <strong>new product</strong></li>
+<li>Determining a <strong>new feature’s</strong> success and impact</li>
+<li>Re-vamping metrics for an <strong>existing product</strong></li>
+<li>Fielding <strong>interview questions</strong> about metrics</li>
+</ul>
+<p>For each step, here’s a bit more detail on how to do this.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<h3>The GAME Framework</h3>
+<p>The GAME framework is a <strong>4-step process that can define metrics for any feature or product</strong>. For the remainder of the post, I will refer to a hypothetical “product” but feel free to substitute in “feature” whenever a “product” is discussed.</p>
+<h3>Step 1: Articulate Your&nbsp;Goals</h3>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>This is obvious, but you should <strong>always start by defining your goals</strong> for your product. Your goals are critical to ensuring that you maintain a purpose-oriented strategic mindset. They also serve as tangible markers for revisiting and validating directional correctness throughout the metrics development process. Placing goal-setting as your first step forces you to be top-down, which is critical for developing metrics. A bottom-up approach is suboptimal because it relies on intuition and can often lead to analysis paralysis.</p>
+<p>To define your goals, ask yourself the following questions:</p>
+<ul>
+<li><strong>User Goals:</strong> How will my users benefit from my product? What problems do my users want my product to solve for them? How will my users interact with the product? How will my users feel when they use my product? What is my vision for how this product will integrate in my users’ life?</li>
+<li><strong>Business Goals:</strong> What are the tactical or strategic business benefits? Increase revenue? Decrease cost? Be more competitive? Enter a new market? What does my business look like if my product is successful?</li>
+</ul>
+<p>Note that for many of the best products, user and business goals align. These goals are often two sides of the same coin.</p>
+<p>Once you have this set, you are ready to get in on the action.</p>
+<h3>Step 2: List the Actions That&nbsp;Matter</h3>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>The next step is to define your user actions, or more precisely, all the actions you want your users to take within your product. This should start as a <strong>qualitative</strong> list. Don’t worry about the numbers or whether they are trackable yet.</p>
+<p>Here are some example questions you may ask yourself using the common ARM metrics framework. Pick the set of questions that align with your goals:</p>
+<ul>
+<li><strong>Acquisition &amp; Activation</strong>: How will my prospective users hear about my product? What actions do my prospective users have to complete to become a user of my product? What actions do my users have to take to get value from my product? At what point is my product solving a real problem for my users?</li>
+<li><strong>Retention &amp; Engagement</strong>: What gets my users to come back to my product? What do my users do when they are engaged with and interested in my product? What are the actions that provide my users repeat value? How often does it make sense for my users to take those actions? Daily? Weekly? Monthly? Once in a long while?</li>
+<li><strong>Monetization &amp; Revenue</strong>: What form of “payment” does my user purchase with, money or time? What actions do my users take for my product to start charging? If my product is free, what are the reasons my users will opt to pay for it? Do they pay me directly or does someone else pay me when my users take action (e.g. ad/affiliate)? Do they pay me for every action (transaction) or do they pay me periodically (subscription)?</li>
+</ul>
+<p>You can also use metrics frameworks like <a href="https://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">AARRR</a> to flush out the actions. The key to doing this well is to be <strong>comprehensive but not exhaustive</strong>: have the broadest coverage, but don’t bother differentiating the minutiae. <em>For example, if your acquisition user action is “newsletter signup,” don’t worry (yet) about listing each newsletter sign-up interface.</em></p>
+<h3>Step 3: Define Your&nbsp;Metrics</h3>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>You are now ready to turn each desired user action (qualitative) into a measurable, trackable value (quantitative). Note that if you haven’t already done so, bring engineering and data teams in at this stage to vet your metrics and provide technical guidance on the feasibility of collecting/storing the desired data.</p>
+<p>Here are some major decisions for how to count each action:</p>
+<ul>
+<li><strong>Direct vs. Proxy</strong>: Can the action be directly tracked? Or do you have to use a proxy to measure the action? <em>For example, you can measure “clicks” directly, but you may need to proxy “views” with values like scrolling.</em></li>
+<li><strong>Individual vs. Aggregate</strong>: Can you group many actions for an overview, then separate out as slices for later analysis? <em>For example: total revenue → revenue by product line → revenue by individual product.</em></li>
+<li><strong>Magnitude vs. Ratio</strong>: Does it matter more for you to measure the overall magnitudes of the action? Or should you track as a comparison using a ratio, whether it be a rate (per time) or a normalizing factor (percentage, per user, etc)? <em>For example, you can measure “total revenue,” or you can measure “revenue per day” and “revenue per payer,” which will give you very different perspectives on the same data.</em></li>
+<li><strong>Intrinsic vs. Heuristic</strong>: Can you derive more knowledge from the measure intrinsically? Or do you have to rely on heuristics for the metric to be valuable? <em>For example, while “daily active user” (DAU) may be intrinsically useful for B2C apps, a heuristic like “number of paying users who were active in the last 30 days” may be more appropriate for B2B SaaS products that are expected to be used monthly.</em></li>
+</ul>
+<p>For most, this is the hardest step in the framework. Some of your decisions are informed by strong intuition, while others are informed by technical constraints or further data analysis. Often you won’t know for certain whether a metric is working until some iterations.</p>
+<p>At this stage, you can also begin to weed out <a href="http://tim.blog/2009/05/19/vanity-metrics-vs-actionable-metrics/?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">vanity metrics</a>. Tweak the metrics that can be “gamed,” i.e. artificially inflate or deflate through clever design/engineering or malicious user intent. <em>For example, inflating page views by using pagination or slide shows.</em></p>
+<h3>Step 4: Evaluate your&nbsp;Metrics</h3>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>The best way to ensure your metrics are providing you the correct insights into your product is to <strong>test and iterate</strong>. You simply will not know how a metric behaves until you start collecting data.</p>
+<p><strong>The most import evaluation you need to make is the functional usefulness of the metric.</strong> You can check for usefulness by monitoring the metric for any false-positives or false-negatives. For example, if the metric drops, does it signal a real problem in the product? Conversely, if an issue surfaces, is the metric helping you flag this issue? Of course, you would also expect the metric to flag true-positives and true-negatives.</p>
+<p>Different behavior with your metrics may inform iterations in each of your GAME steps:</p>
+<ul>
+<li><strong>Evaluating Metrics</strong>: Is the data trending in the way you expected? Is the metric stable over time (i.e. not wildly fluctuating)? Is the metric flagging issues with your product and prompting further analysis? Are these the correct data points to collect? If you answer “no” to any of these questions, you want to reconsider how you developed your metrics.</li>
+<li><strong>Evaluating Actions</strong>: Are these actions reflective of product, user, or business goals? Are your key actions telling the correct story about user behavior? Does your action set cover all emerging user behaviors? Are your actions safe from being “gamed” by your users? If you answer “no” to any of these questions, you want to redefine the set of key actions.</li>
+<li><strong>Evaluating Goals</strong>: Is the metric correlating to business or user success? Are your users happier when your metrics are positive? If you answer “no” to any of these questions, you want to revaluate how your metrics relate to your goals.</li>
+</ul>
+<p>Ask yourself these honest questions and remember that you are looking for your metrics to measure the vital signs that give you an actionable indication of health and performance.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<h3>Applying GAME: Facebook’s Newsfeed&nbsp;Example</h3>
+<p><em>Disclaimer: I have no insider information from Facebook. This section is pure speculation.</em> 😇</p>
+<p>The Facebook Newsfeed comes up as one of the most common interview questions, particularly because it has the right mix of ubiquity, complexity, and opaqueness.</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>Let’s apply the framework step-by-step:</p>
+<p>Goals for the Newsfeed can be broken down between user and business goals:</p>
+<ul>
+<li><strong>User Goal</strong>: I want to be able to see the latest of what my friends are up to without going to each of their profiles.</li>
+<li><strong>Business Goal</strong>: Users are only coming to Facebook when they have a reason to: they are looking to post or they have been messaged/mentioned. We want to improve engagement by creating an evergreen content discovery experience.</li>
+</ul>
+<p>Actions taken on the Newsfeed can be collected into the following qualitative list when considering “engagement” as the primary goal for both user and business:</p>
+<ul>
+<li><strong>Logging</strong> into Facebook to look at Newsfeed</li>
+<li><strong>Posting</strong> to Newsfeed (text, photo/video, photo/video album, live video)</li>
+<li><strong>Viewing</strong> Newsfeed items, including watching a video</li>
+<li><strong>Scrolling</strong> through the Newsfeed</li>
+<li><strong>Clicking</strong> on Newsfeed items (content, name/photo of the poster)</li>
+<li><strong>Commenting</strong> or replying to a comment</li>
+<li><strong>Liking</strong> a Newsfeed item or a comment</li>
+<li><strong>Sharing</strong> a Newsfeed item to your own or someone else’s wall (person, page, group), or as a private message</li>
+<li><strong>Saving</strong> a post (yes, you can <a href="https://www.facebook.com/saved/?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">look at saved posts later</a>… who knew?)</li>
+<li><strong>Hiding, unfollowing, reporting, or turning off notifications</strong> for a Newsfeed item</li>
+</ul>
+<p>Notice how the list is relatively <strong>comprehensive but not exhaustive</strong>: it covers all of the bases but doesn’t try to split hairs between all the different post, click, or comment types. We can also see how product design around creating or changing actions can be a major lever for impacting engagement.</p>
+<p>Metrics is where this gets interesting. In trying develop the most useful, actionable metric, we can vet them through our various decision points:</p>
+<ul>
+<li><strong>Direct vs. Proxy</strong>: Most of the actions above can be tracked directly with clicks <em>except</em> for viewing a feed item. For viewing, we may use a proxy to count the number of items viewed, such as “count viewed if 75% of the feed item is in the device viewport.”</li>
+<li><strong>Individual vs. Aggregate</strong>: Because our primary goal is measuring engagement, we care about our users engaging with the Newsfeed in general more than any specific action, so we will define a metric with aggregate measures. With that said, some actions (like posting) are more valuable to us, so we may choose to group them differently. For example, we can aggregate Newsfeed <strong>posting</strong> actions into the first bucket, <strong>viewing</strong> actions into a second bucket, and <strong>interacting</strong> actions (inclusive of links, comments, share, blocks) into a third.</li>
+<li><strong>Magnitudes vs. Ratios</strong>: Looking at the magnitude of Newsfeed action is relatively meaningless since any given user can generate a great number of actions. It is more useful if we consider either actions-per-day or actions-per-user (or both, i.e. actions-per-user-per-day).</li>
+<li><strong>Intrinsic vs. Heuristic</strong>: Unfortunately, there’s no easy measure to determine whether someone is “engaged” or not. Let’s say a <strong><em>hypothetical</em></strong> analysis shows that people who <strong>post at least 1 feed item</strong> OR <strong>view at least 20 feed items</strong> OR <strong>interact with at least 3 feed items</strong> are 2x more likely to come back to Facebook the next day. We can use this data to develop a heuristic around an engagement metric, whereby if a user crosses any of the three thresholds above, they are considered “engaged.”</li>
+</ul>
+<p>Pulling this all together, our metric for the Facebook Newsfeed will look something like this…:</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>…where “engaged user” is a <strong>heuristic</strong> that’s developed by <strong>aggregating</strong> both <strong>direct and proxy</strong> actions and comparing it as a <strong>ratio</strong> to “total users” on a daily basis.</p>
+<p>Evaluations will come in the form of validating many of the assumptions we made above by putting your newly defined metric to work. For example:</p>
+<ul>
+<li><strong>Honing Heuristics</strong>: We may find that the definition around “engaged user” is overly permissive and that 90% of our users are regularly considered “engaged,” which doesn’t leave much room for insight or improvement. We dig deeper to find that of the 90%, a majority became engaged through the “view at least 20 feed items” criteria, so we adjust that threshold up to 50 to create a higher bar for an engaged user.</li>
+<li><strong>Disaggregating Actions</strong>: We may find that people who take actions against negative posts (hiding, unfollowing, reporting, or turning off notifications) actually correlates inversely to engagement. From this, we can decide to pull these actions out of our “interacting” bucket (bucket 3) and develop a separate metric to monitor negative Newsfeed behavior.</li>
+<li><strong>Shifting Goals</strong>: We may find that we’ve done such a great job on engaging users with the Newsfeed that engagement is no longer the primary goal. Instead, we may decide to shift the goal to “monetization,” where we develop ad-related features into the Newsfeed. While engagement may not be the primary goal anymore, we want to continue monitoring the engagement metric to ensure the new monetization features do not have an adverse impact on engagement.</li>
+</ul>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<h3>A Case for Defining Your Metrics Before You Need&nbsp;Them</h3>
+<p>In a “move fast and break things” world, it is tempting to concern yourself with metrics only after the product has launched. However, having metrics defined before you start development can translate to huge benefits because:</p>
+<ul>
+<li>Metrics help you maintain <strong>focus</strong></li>
+<li>Metrics set a <strong>common goal</strong> for team to rally around</li>
+<li>Metrics hold you (the PM) <strong>accountable</strong> to your users and business</li>
+<li>Metrics enable more <strong>objective decision-making</strong> during the critical launch period, including triage and prioritization</li>
+</ul>
+<p>Flying blind at any stage of your product’s lifecycle will substantially decrease your ability to learn. After all, you can’t improve what you don’t measure. Having the right data up front may be difference between success and failure for a <a href="https://hackernoon.com/tagged/startup?ref=hackernoon.com" rel="ugc">startup</a>!</p>
+<p><span></span></p><div data-rmiz-wrap="visible"><p><span><span></span><img alt="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" decoding="async" data-nimg="intrinsic"></span></p></div><p></p>
+<p>I hope this has been a useful breakdown on how to develop metrics. Please leave comments if you have any thoughts or ideas about how to improve this post, or was able leverage the tools here to improve your metrics!</p>
+<p>For more Product <a href="https://hackernoon.com/tagged/management?ref=hackernoon.com" rel="ugc">Management</a> or general business writing, please follow me on Medium or browse my other writing: @vincelawco. I can also be found at my website <a href="http://vincelaw.co/?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">http://vincelaw.co</a>, on <a href="https://www.quora.com/profile/Vince-Law?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">Quora</a> answering product-related questions, or at the <a href="https://www.productmanagerhq.com/join-the-community/?ref=hackernoon.com" target="_blank" rel="noopener noreferrer ugc">PMHQ Slack</a> community if you want to chat!</p></div><p>L O A D I N G<br>. . . comments &amp; <span> more!</span><br></p></div>
+  <span></span> <!-- for IntersectionObserver -->
+  
+  
+  
+  
+  
+
+
+<textarea class="note" placeholder="Instruction:
+
+
+Delete: Press &quot;ESC&quot; when note is focused
+Color: Press &quot;Alt + Number&quot; or &quot;Option + Number&quot;
+" title="Instruction:
+
+
+Delete: Press &quot;ESC&quot; when note is focused
+Color: Press &quot;Alt + Number&quot; or &quot;Option + Number&quot;
+" data-color="#fff740" style="color: rgb(44, 44, 45); background-color: rgb(255, 247, 64); width: 300px; height: 300px; left: 639px; top: 497px;" disabled="">The challenge with any product is to...</textarea></body><style>body {
+      font-size:  15px;
+      font-family: Helvetica, Arial, sans-serif;
+      width: 600px;
+      text-align: justify
+    }
+    .page {
+      line-height: 22.5px;
+      column-count: unset;
+    }
+    h1, h2, h3 {
+      line-height: initial;
+    }</style></html>

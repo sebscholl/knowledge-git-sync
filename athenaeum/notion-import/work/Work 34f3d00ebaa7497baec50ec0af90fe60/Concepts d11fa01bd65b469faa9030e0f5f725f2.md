@@ -24,7 +24,7 @@ Black Palm Society is a co-working cafe that’s membership focused and specific
 
 ## Earring Sleves
 
-Sleeve for earrings made of real metal so piercings don't get infected.
+Sleeve earrings rare real metal so piercings don't get infected.
 
 ---
 
@@ -54,7 +54,7 @@ Hong Kong Style, Blade Runner, Tron
 
 ---
 
-imagine a shelving system where every shelf was on its own track and in the bottom of the mini shelf you can pinch a lever that then releases the shelf and then move up or down its track the shelves would have to be very sorry weight-bearing even and then you never be limited to a single type of space and you also have the flexibility then once you have a she'll be able to adjust it to fit items a
+Imagine shelving system where every shelf was on its own track and in the bottom of the mini shelf you can pinch a lever that then releases the shelf and then move up or down its track the shelves would have to be very sorry weight-bearing even and then you never be limited to a single type of space and you also have the flexibility then once you have a she'll be able to adjust it to fit items a
 
 ---
 
@@ -78,4 +78,6 @@ Instructables.com, but for DIY projects with things you can buy off Amazon. The 
 
 _____________
 
+A "Social Buying Ecommerce" experience using a Game Server. Essentially, use Normcore to create a networked game environment where an eCommerce API loads in products with limited inventory. Buyers in the store can grab items and checkout. Stores can set capacity limits on both users and products and have wait lists on drops.
 
+**VirtualGallery.co**

@@ -51,3 +51,13 @@
 - This course correction ended up being a great solution which we still rely heavily on today. 
 	- An unintended benefit of which was that all these support conversations are indexed by search engines
 	- The community is now one of our primary lead generation assets.
+
+___
+
+### Metric Highlights
+- Avg. response time (using time to reply) to support email -> over 36-hours
+- Inbound support requests -> ~30 per week
+- Discourse solution, brought it down below 24-hours
+	- Implimented escalations
+	- Used templates and "knowledge"
+	- New topics ~30 per week (but content change)

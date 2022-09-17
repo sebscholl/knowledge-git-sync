@@ -81,3 +81,21 @@
 		- Key KPI I was tracking was "avg. time training (minutes) / participant"
 			- Century21 group with VR was 24-minutes first 2 weeks
 			- Century21 group with Web was 97-minutes first 2 weeks
+
+___
+
+### Metric Highlights
+- Avg. Training Time/User/Week ~20-minutes -> ~90-minutes
+- Charting the learning curve over time
+	- Simulation Logins
+		- `sum_logins(date_range)`
+	- Internalization % (Individual / Grouping / RampEX)
+		- `avg_internaliztion`
+		- `avg_internalization(customer) / customer_threshold`
+		- `avg_s1_int + avg_n_int / customer_threshold`
+		- 10 Controlled tests cases with cold call script 
+			- 10 sessions in 1 day = `0% to 60%+ internalization score`
+	- Training Time / Week (Individual / Grouping / RampEX)
+		- `sum_training_time(date_range)`
+	- Utterances (Individual / Grouping / RampEX)
+		- `sum_utterances(date_range)`
