@@ -1,11 +1,10 @@
 # Black Palm
 
 > Black Palm Society
-> 
 
 This document articulates a business concept that brings together technology, hospitality, and community. **Black Palm** is a membership focused 3rd Space concept which will unite, inspire, and grow Miami’s creative and entrepreneurial communities. The concept challenges traditional F&B business models by focusing primarily on monthly reoccurring revenue (MRR) realized through memberships sales. Designed to provide a unique watering hole for entrepreneurs, creatives, and professionals alike, **Black Palm** will launch in one of the world’s fastest growing and most international cities - **Miami, FL**.
 
-![Black%20Palm%201136fbe35f1844f3885f08940c751f68/image1.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Concepts%20d11fa01bd65b469faa9030e0f5f725f2/Black%20Palm%201136fbe35f1844f3885f08940c751f68/image1.png)
+![Black%20Palm%201136fbe35f1844f3885f08940c751f68/image1.png](athenaeum/career/entrepenuerialism/Concepts/Black%20Palm/image1.png)
 
 ### 
 
@@ -76,7 +75,7 @@ From 6:00pm till closing, wine and beer will be sold by the bottle in a New Orle
 > Environment & ConceptThe Black Palms Society - as a space - can be imagined as so. A noticeably open and raw industrial space. At the front, a several hundred square foot area is open to the public - allowing anyone access to a limited stretch of the centrally situated circular cafe counter. This counter meets the left wall of the space, and stretches out to the opposing side to meet a metal turnstile. Members use unique QR codes stored on a mobile app to allow themselves access to the larger space through the turnstile. There are no visual barriers to the separation of member and nonmember space.
 > 
 
-![Black%20Palm%201136fbe35f1844f3885f08940c751f68/image2.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Concepts%20d11fa01bd65b469faa9030e0f5f725f2/Black%20Palm%201136fbe35f1844f3885f08940c751f68/image2.png)
+![Black%20Palm%201136fbe35f1844f3885f08940c751f68/image2.png](athenaeum/career/entrepenuerialism/Concepts/Black%20Palm/image2.png)
 
 ![Black%20Palm%201136fbe35f1844f3885f08940c751f68/image6.jpg](image6.jpg)
 

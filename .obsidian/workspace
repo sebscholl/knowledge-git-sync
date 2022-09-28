@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "23539b1bcc7ad553",
+        "id": "b0f27692d933b86e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "athenaeum/general/SchollMail Inbox Journal.md",
-            "mode": "source",
+            "file": "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "concepts",
+                "query": "path: pm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 465.5
   },
   "right": {
     "id": "ff155650f3da09c1",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "athenaeum/general/SchollMail Inbox Journal.md",
+                "file": "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "athenaeum/general/SchollMail Inbox Journal.md",
+                "file": "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "athenaeum/general/SchollMail Inbox Journal.md"
+                "file": "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23539b1bcc7ad553",
+  "active": "b0f27692d933b86e",
   "lastOpenFiles": [
-    "athenaeum/notion-import/work/Work 34f3d00ebaa7497baec50ec0af90fe60/Concepts d11fa01bd65b469faa9030e0f5f725f2.md",
-    "athenaeum/general/General Knowledge 07dee0f067f64486be6e4430a9b77e97.md",
-    "athenaeum/general/Bay Vista - Working Document.md",
-    "athenaeum/education/technology/programming/The Rust Programming Language/The Rust Programming Language.md",
-    "athenaeum/career/GAME metrics framework.md",
-    "athenaeum/career/amazon/behavorial-interview-stories/Interviewing Customers to Validate Developer User Experience Level.md",
-    "athenaeum/career/shopify/Shopify Interview 2 - Metrics & Execution.md",
-    "athenaeum/career/shopify/Shopify Interview 3 - Case Study.md",
-    "athenaeum/career/shopify/Shopify Interview 1 - PM Craft Interview.md",
-    "athenaeum/career/shopify-senior-pm.md"
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/Experiencing the HTC Vive as a Space Pirate ab31a6f1326741a1a50788cd9d773a90.md",
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/A Day in NYC 6f32f0922c6a4d02856b1fd9c774d99a/Untitled.png",
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/-20 and 60 Degrees North 779aab922eeb4440885fcc7ccf7159c9/Untitled.png",
+    "athenaeum/career/amazon/Interviews/Phone Screening with Sam D.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/What’s the most inventive or innovative thing you’ve done?.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Working with Stephen to Further Enable the Sales Process.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Working with Kevin on Salez.io.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Working with Alex on Virtual Vision and Coaching Him as Team Dev.md",
+    "athenaeum/career/amazon/behavorial-interview-stories/Why do I want to work for Amazon?.md",
+    "athenaeum/career/amazon/amazon-lvl-6-pm.md"
   ]
 }

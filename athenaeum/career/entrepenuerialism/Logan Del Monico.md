@@ -1,6 +1,6 @@
 # Logan Del Monico
 
-[The Artists Delimma Sculpture](The%20Artists%20Delimma%20Sculpture%20de88cc66351047bea5850a598e3eaa0e.md)
+[The Artists Delimma Sculpture](The%20Artists%20Delimma%20Sculpture.md)
 
 **Dump to organize**
 
@@ -163,7 +163,7 @@ Twitter | Facebook | Instagram
 
 ---
 
-![Untitled](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Logan%20Del%20Monico%208b0838c4990940b789e422f4445a4c0e/Untitled.png)
+![Untitled](athenaeum/career/entrepenuerialism/Logan%20Del%20Monico/Untitled.png)
 
 Designing pieces for men that give pleasure to women.
 

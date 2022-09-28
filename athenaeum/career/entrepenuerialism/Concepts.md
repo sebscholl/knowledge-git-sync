@@ -16,9 +16,9 @@ Scalable interactive learning.
 
 Black Palm Society is a co-working cafe that’s membership focused and specifically driven to inspire, unite, and grow Miami’s entrepreneurial community. The business is structured towards generating consistent and predictable cash flows. The offering is designed to provide a unique watering hole for entrepreneurs and professionals in one of the world’s fastest growing and most international cities.
 
-[RampEX](RampEX%200782a02ffe1c4ecb9dd8012801367a53.md)
+[RampEX](RampEX.md)
 
-[Black Palm](Black%20Palm%201136fbe35f1844f3885f08940c751f68.md)
+[Black Palm](Black%20Palm.md)
 
 ---
 
@@ -28,13 +28,13 @@ Sleeve earrings rare real metal so piercings don't get infected.
 
 ---
 
-[Database](Database%20ab272e10c8c94fff93bd7e56a9810a71.md)
+[Database](Database.md)
 
-[FiveDollarFeast](FiveDollarFeast%207ba79f4dc9b148b29a4e3bf6aff85c96.md)
+[FiveDollarFeast](FiveDollarFeast.md)
 
-[Pinch Plates](Pinch%20Plates%206528d81412b5429897712cf03a6f19f3.md)
+[Pinch Plates](Pinch%20Plates.md)
 
-[Fitness App](Fitness%20App%20a77ae0d5744143acb8ff3cf0ef4c66f9.md)
+[Fitness App](Fitness%20App.md)
 
 _____________________________________
 

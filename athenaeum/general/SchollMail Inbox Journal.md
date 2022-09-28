@@ -4,14 +4,29 @@
 - dye5go@schollmail.com
 
 **Aliases 2022:**
-- ss1@schollmail.com (default)
-- ss-dev-1@schollmail.com
-- ss-trash-1@schollmail.com
-- ss-random-1@schollmail.com: Inbox for low trust accounts and general accounts.
-- ss-social-1@schollmail.com: Inbox for social profiles and networking based tools and services (Social Media, Calendars)
-- ss-finance-1@schollmail.com: Inbox for Finanacial relevant institutions (Banks, Credit Cards, Mortgage Servicers, Job Benefits)
-- ss-health-1@schollmail.com: Inbox for health service related 
-- ss-subscriptions-1@schollmail.com: Inbox for monthly subscription services.
+**ss1@schollmail.com (default)**
+- Email for personal communication and password manager.
+
+**ss-dev-1@schollmail.com**
+- Email for developer tools and services.
+
+**ss-trash-1@schollmail.com**
+- Inbox for not trusted sites and gated content.
+
+**ss-random-1@schollmail.com** 
+- Inbox for low trust accounts and general accounts.
+
+**ss-social-1@schollmail.com**
+- Inbox for social profiles and networking based tools and services (Social Media, Calendars)
+
+**ss-finance-1@schollmail.com** 
+- Inbox for Finanacial relevant institutions (Banks, Credit Cards, Mortgage Servicers, Job Benefits)
+
+**ss-health-1@schollmail.com** 
+- Inbox for health service related 
+
+**ss-subscriptions-1@schollmail.com**
+- Inbox for monthly subscription services.
 
 ***Inbox Setting: Reply from the same address the message was sent to!***
 

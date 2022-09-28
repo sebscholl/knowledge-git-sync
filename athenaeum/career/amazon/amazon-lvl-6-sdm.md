@@ -7,7 +7,7 @@
 - [[caching systems]]
 - [[databases and scalability]]
 - [[load balancing]]
-- [[athenaeum/career/What’s the most inventive or innovative thing you’ve done?]]
+- [[What’s the most inventive or innovative thing you’ve done?]]
 - [[amazon-devices-teams]]
 - [[Tips for Good Behavorial Interview Story Answers]]
 - [ONSITE PREP DOC- inside.amazon.pdf](ONSITE_PREP_DOC-_inside.amazon.pdf)
@@ -76,7 +76,7 @@ Washington Based
 
 **Review**
 - People Management
-- Writing Sample [[athenaeum/career/What’s the most inventive or innovative thing you’ve done?]]
+- Writing Sample [[What’s the most inventive or innovative thing you’ve done?]]
 
 **Stories**
 - [[Stories for Amazon Loop Interview 2]]

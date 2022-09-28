@@ -53,7 +53,7 @@ I saw that you the following tags listed (All, For Developers, For Businesses, A
 
 **The one type of post that you are missing and need are customer case studies—this social proof is very important as folks are looking to use 8base.** I would also consider “Case Studies” as it’s own spot in the overall web navigation eyebrow after you get a number of them. Additionally, on the company homepage I would encourage you to put the logos of some companies for social proof. I know that this is a “trendy” thing for startups:
 
-![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image1.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Archives%20aaeb0b9209be40e59f750ec00a45cb9b/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image1.png)
+![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image1.png](athenaeum/career/entrepenuerialism/Archives/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image1.png)
 
 **What Content to Create Next**
 
@@ -97,7 +97,7 @@ Salesforce MySQL (10–100 searches)**With your 8base Bolt product, you have an 
 
 [Hubspot provides an excellent example](https://blog.hubspot.com/marketing/content-marketing-strategy) of how this kind of bedrock content would look visually for an online fitness company:
 
-![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image2.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Archives%20aaeb0b9209be40e59f750ec00a45cb9b/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image2.png)
+![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image2.png](athenaeum/career/entrepenuerialism/Archives/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image2.png)
 
 For 8base, and example would be for you to create the Firebase AWS Alternative piece, providing a ton of value for the reader. Then, you should build out with the topics mentioned above, coupled with some really long tail kind of content of niche searches, that links back to bedrock piece whenever that keyword is mentioned.
 
@@ -294,7 +294,7 @@ While your owned newsletter, paid social and paid search are definitely ways to 
 
 **Hacker Noon**
 
-![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image3.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Archives%20aaeb0b9209be40e59f750ec00a45cb9b/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image3.png)
+![Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image3.png](athenaeum/career/entrepenuerialism/Archives/8base%2000b0b849cf6843cc839bdad761c3306a/Strategies%2024154a9b60694c6a8c0c03ceb86bd5d6/Site%20SEO%20Review%20by%20Garrett%20Heath%20140b579c551e4f7aa3ad2de0575555ab/image3.png)
 
 I’m not going to spend a ton of time here since Sebastian has already guest post for them, but you do have an opportunity for 8base to pay for pieces to appear on Hacker Noon along with sponsoring their email. Here are some prices in a nutshell:
 

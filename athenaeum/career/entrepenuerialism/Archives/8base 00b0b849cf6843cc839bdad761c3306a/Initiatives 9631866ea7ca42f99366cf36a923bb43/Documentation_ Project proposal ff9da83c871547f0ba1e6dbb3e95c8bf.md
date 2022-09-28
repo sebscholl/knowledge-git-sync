@@ -1,6 +1,6 @@
 # Documentation_ Project proposal
 
-![Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image2.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Archives%20aaeb0b9209be40e59f750ec00a45cb9b/8base%2000b0b849cf6843cc839bdad761c3306a/Initiatives%209631866ea7ca42f99366cf36a923bb43/Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image2.png)
+![Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image2.png](athenaeum/career/entrepenuerialism/Archives/8base%2000b0b849cf6843cc839bdad761c3306a/Initiatives%209631866ea7ca42f99366cf36a923bb43/Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image2.png)
 
 Documentation V2
 
@@ -101,4 +101,4 @@ A server located at the subdomain [docs.8base.com](http://docs.8base.com/) will 
 
 # Hierarchy of Deliverables with Milestones
 
-![Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image3.png](athenaeum/notion-import/work/Work%2034f3d00ebaa7497baec50ec0af90fe60/Archives%20aaeb0b9209be40e59f750ec00a45cb9b/8base%2000b0b849cf6843cc839bdad761c3306a/Initiatives%209631866ea7ca42f99366cf36a923bb43/Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image3.png)
+![Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image3.png](athenaeum/career/entrepenuerialism/Archives/8base%2000b0b849cf6843cc839bdad761c3306a/Initiatives%209631866ea7ca42f99366cf36a923bb43/Documentation_%20Project%20proposal%20ff9da83c871547f0ba1e6dbb3e95c8bf/image3.png)

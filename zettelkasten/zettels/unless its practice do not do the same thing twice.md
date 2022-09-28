@@ -13,5 +13,5 @@ ___
 # References
 
 [While working with Jasper.ai](https://jasper.ai)
-[[athenaeum/career/What’s the most inventive or innovative thing you’ve done?]]
+[[What’s the most inventive or innovative thing you’ve done?]]
 [[Only doing what matters]]
