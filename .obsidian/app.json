@@ -6,5 +6,6 @@
   "newFileFolderPath": "zettelkasten/zettels",
   "trashOption": "local",
   "attachmentFolderPath": "_files",
-  "vimMode": true
+  "vimMode": true,
+  "defaultViewMode": "preview"
 }
