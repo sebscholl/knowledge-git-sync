@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1005244e7d17eb5e",
+        "id": "29a7fdb012e41f29",
         "type": "tabs",
         "children": [
           {
-            "id": "c91af85d42ccd949",
+            "id": "f90080903f743d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten/references/preventing sleep mode on Linux.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "699bc1f358883c33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md",
+                "file": "zettelkasten/zettels/Automation Rarely Happens by Substitution.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Automation Rarely Happens by Substitution"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -61,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "black",
+                "query": "lurk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +69,19 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8594d1e79a7c528f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -98,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md",
+                "file": "zettelkasten/zettels/2025-03-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +112,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-03-13"
             }
           },
           {
@@ -115,10 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md",
+                "file": "zettelkasten/zettels/2025-03-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-03-13"
             }
           },
           {
@@ -128,8 +138,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,16 +152,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md"
-              }
+                "file": "zettelkasten/zettels/2025-03-13.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-03-13"
+            }
+          },
+          {
+            "id": "557a56b677f8d1a0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,19 +185,28 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "699bc1f358883c33",
+  "active": "f90080903f743d2a",
   "lastOpenFiles": [
-    "athenaeum/education/technology/distributed systems.md",
-    "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md",
+    "zettelkasten/zettels/Automation Rarely Happens by Substitution.md",
+    "Untitled.canvas",
     "zettelkasten/references/preventing sleep mode on Linux.md",
+    "zettelkasten/zettels/Untitled.canvas",
+    "zettelkasten/zettels/Untitled 1.md",
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Music & Poems 634f84523197449b8bade02e6951c67f/Lurk.md",
+    "zettelkasten/zettels/2025-03-13.md",
+    "manifesto.md",
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99.md",
+    "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835.md",
+    "athenaeum/education/technology/programming/Strapi/Plugins in Strapi.md",
+    "athenaeum/education/technology/distributed systems.md",
     "zettelkasten/references/Installing Uninstalling Rust Lang.md",
     "zettelkasten/references/asus ROG IP Address.md",
     "zettelkasten/zettels/2023-03-27.md",
     "athenaeum/career/entrepenuerialism/Concepts/Black Palm.md",
-    "zettelkasten/zettels/Untitled.canvas",
     "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/First Panama Trip cd92814815aa45e584e18e258a4d4deb.md",
     "athenaeum/notion-import/writing/Writing 8e79ce15b0f5476c8359f01b8daaa835/Blogs b243d8016e094db7a64e51a987b86d99/sebastianscholl com 8a3e8a39a31447d1b19ff195488f3ac5/Experiencing the HTC Vive as a Space Pirate ab31a6f1326741a1a50788cd9d773a90.md"
   ]
